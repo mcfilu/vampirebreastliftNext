@@ -1,6 +1,7 @@
 'use client'
 import React, {useState} from 'react'
 import { ReactCompareSlider, ReactCompareSliderImage } from 'react-compare-slider';
+import Image from 'next/image';
 
 import reduction1_before from '../../public/reduction1_before.jpg';
 import reduction1_after from '../../public/reduction1_after.jpg';
@@ -41,64 +42,80 @@ const ReductionCompare = () => {
                 <div className={`flex w-full h-full justify-between ${hov1 ? '' : 'hidden'} ease-in-out duration-500`}>
                     <div className={`flex w-full md:w-[50%] mx-auto h-full justify-center`}>
                         <ReactCompareSlider
-                            itemOne={<ReactCompareSliderImage src="sjfksldfj" srcSet={reduction1_before} alt="Image one"/>}
-                            itemTwo={<ReactCompareSliderImage src={reduction1_after} srcSet={reduction1_after} alt="Image two" />}
+                            itemOne={<ReactCompareSliderImage src="sjfksldfj" srcSet={reduction1_before.src} alt="Image one"/>}
+                            itemTwo={<ReactCompareSliderImage src={reduction1_after.src} srcSet={reduction1_after.src} alt="Image two" />}
                         />
                     </div>
                     
                 </div>
                 <div className={`flex w-full h-full justify-between md:justify-center ${hov1 ? 'hidden' : ''} ease-in-out duration-500`}>
-                    <img className={`md:mr-[3vh] w-[47%] md:w-[43%] object-cover`} src={reduction1_before}></img>
+                    <div className={`mr-[3vh] w-[47%] md:w-[43%] object-cover relative`}>
+                        <Image objectFit="cover" objectPosition="center" fill="true" alt="" src={reduction1_before}></Image>
+                    </div>
                     <div className={`h-full w-[0.2vh] bg-gold1`}></div>
-                    <img className={`md:ml-[3vh] w-[47%] md:w-[43%] object-cover`} src={reduction1_after}></img>
+                    <div className={`ml-[3vh] w-[47%] md:w-[43%] object-cover relative`}>
+                        <Image objectFit="cover" objectPosition="center" fill="true" alt="" src={reduction1_after}></Image>
+                    </div>
                 </div>
             </div>
             <div onMouseEnter={() => setHov2(true)} onMouseLeave={() => {setHov2(false)}} className={`flex flex-row justify-between w-full h-[25vh] my-[1vh]`}>
                 <div className={`flex w-full h-full justify-between ${hov2 ? '' : 'hidden'} ease-in-out duration-500`}>
                     <div className={`flex w-full md:w-[50%] mx-auto h-full justify-center`}>
                         <ReactCompareSlider
-                            itemOne={<ReactCompareSliderImage src="sjfksldfj" srcSet={reduction2_before} alt="Image one"/>}
-                            itemTwo={<ReactCompareSliderImage src={reduction2_after} srcSet={reduction2_after} alt="Image two" />}
+                            itemOne={<ReactCompareSliderImage src="sjfksldfj" srcSet={reduction2_before.src} alt="Image one"/>}
+                            itemTwo={<ReactCompareSliderImage src={reduction2_after.src} srcSet={reduction2_after.src} alt="Image two" />}
                         />
                     </div>
                     
                 </div>
                 <div className={`flex w-full h-full justify-between md:justify-center ${hov2 ? 'hidden' : ''} ease-in-out duration-500`}>
-                    <img className={`md:mr-[3vh] w-[47%] md:w-[43%] object-cover`} src={reduction2_before}></img>
+                    <div className={`mr-[3vh] w-[47%] md:w-[43%] object-cover relative`}>
+                        <Image objectFit="cover" objectPosition="center" fill="true" alt="" src={reduction2_before}></Image>
+                    </div>
                     <div className={`h-full w-[0.2vh] bg-gold1`}></div>
-                    <img className={`md:ml-[3vh] w-[47%] md:w-[43%] object-cover`} src={reduction2_after}></img>
+                    <div className={`ml-[3vh] w-[47%] md:w-[43%] object-cover relative`}>
+                        <Image objectFit="cover" objectPosition="center" fill="true" alt="" src={reduction2_after}></Image>
+                    </div>
                 </div>
             </div>
             <div onMouseEnter={() => setHov3(true)} onMouseLeave={() => {setHov3(false)}} className={`${vis3 ? '' : 'hidden'} flex flex-row justify-between w-full h-[25vh] my-[1vh]`}>
                 <div className={`flex w-full h-full justify-between ${hov3 ? '' : 'hidden'} ease-in-out duration-500`}>
                     <div className={`flex w-full md:w-[50%] mx-auto h-full justify-center`}>
                         <ReactCompareSlider
-                            itemOne={<ReactCompareSliderImage src="sjfksldfj" srcSet={reduction3_before} alt="Image one"/>}
-                            itemTwo={<ReactCompareSliderImage src={reduction3_after} srcSet={reduction3_after} alt="Image two" />}
+                            itemOne={<ReactCompareSliderImage src="sjfksldfj" srcSet={reduction3_before.src} alt="Image one"/>}
+                            itemTwo={<ReactCompareSliderImage src={reduction3_after.src} srcSet={reduction3_after.src} alt="Image two" />}
                         />
                     </div>
                     
                 </div>
                 <div className={`flex w-full h-full justify-between md:justify-center ${hov3 ? 'hidden' : ''} ease-in-out duration-500`}>
-                    <img className={`md:mr-[3vh] w-[47%] md:w-[43%] object-cover`} src={reduction3_before}></img>
+                    <div className={`mr-[3vh] w-[47%] md:w-[43%] object-cover relative`}>
+                        <Image objectFit="cover" objectPosition="center" fill="true" alt="" src={reduction3_before}></Image>
+                    </div>
                     <div className={`h-full w-[0.2vh] bg-gold1`}></div>
-                    <img className={`md:ml-[3vh] w-[47%] md:w-[43%] object-cover`} src={reduction3_after}></img>
+                    <div className={`ml-[3vh] w-[47%] md:w-[43%] object-cover relative`}>
+                        <Image objectFit="cover" objectPosition="center" fill="true" alt="" src={reduction3_after}></Image>
+                    </div>
                 </div>
             </div>
             <div onMouseEnter={() => setHov4(true)} onMouseLeave={() => {setHov4(false)}} className={`${vis4 ? '' : 'hidden'} flex flex-row justify-between w-full h-[25vh] my-[1vh]`}>
                 <div className={`flex w-full h-full justify-between ${hov4 ? '' : 'hidden'} ease-in-out duration-500`}>
                     <div className={`flex w-full md:w-[50%] mx-auto h-full justify-center`}>
                         <ReactCompareSlider
-                            itemOne={<ReactCompareSliderImage src="sjfksldfj" srcSet={reduction4_before} alt="Image one"/>}
-                            itemTwo={<ReactCompareSliderImage src={reduction4_after} srcSet={reduction4_after} alt="Image two" />}
+                            itemOne={<ReactCompareSliderImage src="sjfksldfj" srcSet={reduction4_before.src} alt="Image one"/>}
+                            itemTwo={<ReactCompareSliderImage src={reduction4_after.src} srcSet={reduction4_after.src} alt="Image two" />}
                         />
                     </div>
                     
                 </div>
                 <div className={`flex w-full h-full justify-between md:justify-center ${hov4 ? 'hidden' : ''} ease-in-out duration-500`}>
-                    <img className={`md:mr-[3vh] w-[47%] md:w-[43%] object-cover`} src={reduction4_before}></img>
+                <div className={`mr-[3vh] w-[47%] md:w-[43%] object-cover relative`}>
+                        <Image objectFit="cover" objectPosition="center" fill="true" alt="" src={reduction4_before}></Image>
+                    </div>
                     <div className={`h-full w-[0.2vh] bg-gold1`}></div>
-                    <img className={`md:ml-[3vh] w-[47%] md:w-[43%] object-cover`} src={reduction4_after}></img>
+                    <div className={`ml-[3vh] w-[47%] md:w-[43%] object-cover relative`}>
+                        <Image objectFit="cover" objectPosition="center" fill="true" alt="" src={reduction4_after}></Image>
+                    </div>
                 </div>
             </div>
             <button onClick={() => handleImages()} className={`flex mx-auto px-[1vh] py-[0.5vh] bg-black border-2 border-gold1 text-gold1 text-[2.5vh]  ${buttonVis ? "":"hidden"} mt-[1vh]`}>Load More</button>

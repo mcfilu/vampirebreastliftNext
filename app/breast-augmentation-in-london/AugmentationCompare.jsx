@@ -1,6 +1,7 @@
 'use client'
 import React, {useState} from 'react'
 import { ReactCompareSlider, ReactCompareSliderImage } from 'react-compare-slider';
+import Image from 'next/image';
 
 import augmentation1_before from '../../public/augmentation1_before.jpg';
 import augmentation1_after from '../../public/augmentation1_after.jpg';
@@ -41,64 +42,82 @@ const AugmentationCompare = () => {
                 <div className={`flex w-full h-full justify-between ${hov1 ? '' : 'hidden'} ease-in-out duration-500`}>
                     <div className={`flex w-full md:w-[50%] mx-auto h-full justify-center`}>
                         <ReactCompareSlider
-                            itemOne={<ReactCompareSliderImage src="sjfksldfj" srcSet={augmentation8_before} alt="Image one"/>}
-                            itemTwo={<ReactCompareSliderImage src={augmentation8_after} srcSet={augmentation8_after} alt="Image two" />}
+                            itemOne={<ReactCompareSliderImage src="sjfksldfj" srcSet={augmentation8_before.src} alt="Image one"/>}
+                            itemTwo={<ReactCompareSliderImage src={augmentation8_after.src} srcSet={augmentation8_after.src} alt="Image two" />}
                         />
                     </div>
                     
                 </div>
                 <div className={`flex w-full h-full justify-between md:justify-center ${hov1 ? 'hidden' : ''} ease-in-out duration-500`}>
-                    <img className={`md:mr-[3vh] w-[47%] md:w-[43%] object-cover`} src={augmentation8_before}></img>
+                    <div className={`mr-[3vh] w-[47%] md:w-[43%] object-cover relative`}>
+                        <Image objectFit="cover" objectPosition="center" fill="true" alt="" src={augmentation8_before}></Image>
+                    </div>
+                    {/* <img className={`md:mr-[3vh] w-[47%] md:w-[43%] object-cover`} src={augmentation8_before}></img> */}
                     <div className={`h-full w-[0.2vh] bg-gold1`}></div>
-                    <img className={`md:ml-[3vh] w-[47%] md:w-[43%] object-cover`} src={augmentation8_after}></img>
+                    <div className={`ml-[3vh] w-[47%] md:w-[43%] object-cover relative`}>
+                        <Image objectFit="cover" objectPosition="center" fill="true" alt="" src={augmentation8_after}></Image>
+                    </div>
+                    {/* <img className={`md:ml-[3vh] w-[47%] md:w-[43%] object-cover`} src={augmentation8_after}></img> */}
                 </div>
             </div>
             <div onMouseEnter={() => setHov2(true)} onMouseLeave={() => {setHov2(false)}} className={`flex flex-row justify-between w-full h-[25vh] my-[1vh]`}>
                 <div className={`flex w-full h-full justify-between ${hov2 ? '' : 'hidden'} ease-in-out duration-500`}>
                     <div className={`flex w-full md:w-[50%] mx-auto h-full justify-center`}>
                         <ReactCompareSlider
-                            itemOne={<ReactCompareSliderImage src="sjfksldfj" srcSet={augmentation1_before} alt="Image one"/>}
-                            itemTwo={<ReactCompareSliderImage src={augmentation1_after} srcSet={augmentation1_after} alt="Image two" />}
+                            itemOne={<ReactCompareSliderImage src="sjfksldfj" srcSet={augmentation1_before.src} alt="Image one"/>}
+                            itemTwo={<ReactCompareSliderImage src={augmentation1_after.src} srcSet={augmentation1_after.src} alt="Image two" />}
                         />
                     </div>
                     
                 </div>
                 <div className={`flex w-full h-full justify-between md:justify-center ${hov2 ? 'hidden' : ''} ease-in-out duration-500`}>
-                    <img className={`md:mr-[3vh] w-[47%] md:w-[43%] object-cover`} src={augmentation1_before}></img>
+                <div className={`mr-[3vh] w-[47%] md:w-[43%] object-cover relative`}>
+                        <Image objectFit="cover" objectPosition="center" fill="true" alt="" src={augmentation1_before}></Image>
+                    </div>
                     <div className={`h-full w-[0.2vh] bg-gold1`}></div>
-                    <img className={`md:ml-[3vh] w-[47%] md:w-[43%] object-cover`} src={augmentation1_after}></img>
+                    <div className={`ml-[3vh] w-[47%] md:w-[43%] object-cover relative`}>
+                        <Image objectFit="cover" objectPosition="center" fill="true" alt="" src={augmentation1_after}></Image>
+                    </div>
                 </div>
             </div>
             <div onMouseEnter={() => setHov3(true)} onMouseLeave={() => {setHov3(false)}} className={`${vis3 ? '' : 'hidden'} flex flex-row justify-between w-full h-[25vh] my-[1vh]`}>
                 <div className={`flex w-full h-full justify-between ${hov3 ? '' : 'hidden'} ease-in-out duration-500`}>
                     <div className={`flex w-full md:w-[50%] mx-auto h-full justify-center`}>
                         <ReactCompareSlider
-                            itemOne={<ReactCompareSliderImage src="sjfksldfj" srcSet={augmentation5_before} alt="Image one"/>}
-                            itemTwo={<ReactCompareSliderImage src={augmentation5_after} srcSet={augmentation5_after} alt="Image two" />}
+                            itemOne={<ReactCompareSliderImage src="sjfksldfj" srcSet={augmentation5_before.src} alt="Image one"/>}
+                            itemTwo={<ReactCompareSliderImage src={augmentation5_after.src} srcSet={augmentation5_after.src} alt="Image two" />}
                         />
                     </div>
                     
                 </div>
                 <div className={`flex w-full h-full justify-between md:justify-center ${hov3 ? 'hidden' : ''} ease-in-out duration-500`}>
-                    <img className={`md:mr-[3vh] w-[47%] md:w-[43%] object-cover`} src={augmentation5_before}></img>
+                <div className={`mr-[3vh] w-[47%] md:w-[43%] object-cover relative`}>
+                        <Image objectFit="cover" objectPosition="center" fill="true" alt="" src={augmentation5_before}></Image>
+                    </div>
                     <div className={`h-full w-[0.2vh] bg-gold1`}></div>
-                    <img className={`md:ml-[3vh] w-[47%] md:w-[43%] object-cover`} src={augmentation5_after}></img>
+                    <div className={`ml-[3vh] w-[47%] md:w-[43%] object-cover relative`}>
+                        <Image objectFit="cover" objectPosition="center" fill="true" alt="" src={augmentation5_after}></Image>
+                    </div>
                 </div>
             </div>
             <div onMouseEnter={() => setHov4(true)} onMouseLeave={() => {setHov4(false)}} className={`${vis4 ? '' : 'hidden'} flex flex-row justify-between w-full h-[25vh] my-[1vh]`}>
                 <div className={`flex w-full h-full justify-between ${hov4 ? '' : 'hidden'} ease-in-out duration-500`}>
                     <div className={`flex w-full md:w-[50%] mx-auto h-full justify-center`}>
                         <ReactCompareSlider
-                            itemOne={<ReactCompareSliderImage src="sjfksldfj" srcSet={augmentation7_before} alt="Image one"/>}
-                            itemTwo={<ReactCompareSliderImage src={augmentation7_after} srcSet={augmentation7_after} alt="Image two" />}
+                            itemOne={<ReactCompareSliderImage src="sjfksldfj" srcSet={augmentation7_before.src} alt="Image one"/>}
+                            itemTwo={<ReactCompareSliderImage src={augmentation7_after.src} srcSet={augmentation7_after.src} alt="Image two" />}
                         />
                     </div>
                     
                 </div>
                 <div className={`flex w-full h-full justify-between md:justify-center ${hov4 ? 'hidden' : ''} ease-in-out duration-500`}>
-                    <img className={`md:mr-[3vh] w-[47%] md:w-[43%] object-cover`} src={augmentation7_before}></img>
+                <div className={`mr-[3vh] w-[47%] md:w-[43%] object-cover relative`}>
+                        <Image objectFit="cover" objectPosition="center" fill="true" alt="" src={augmentation7_before}></Image>
+                    </div>
                     <div className={`h-full w-[0.2vh] bg-gold1`}></div>
-                    <img className={`md:ml-[3vh] w-[47%] md:w-[43%] object-cover`} src={augmentation7_after}></img>
+                    <div className={`ml-[3vh] w-[47%] md:w-[43%] object-cover relative`}>
+                        <Image objectFit="cover" objectPosition="center" fill="true" alt="" src={augmentation7_after}></Image>
+                    </div>
                 </div>
             </div>
             <button onClick={() => handleImages()} className={`flex mx-auto px-[2vh] py-[1vh] bg-black border-2 border-gold1 text-gold1 text-[2.5vh]  ${buttonVis ? "":"hidden"} font-main mt-[1vh]`}>Load More</button>
