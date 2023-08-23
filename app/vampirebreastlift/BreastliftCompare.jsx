@@ -3,14 +3,14 @@ import React, {useState} from 'react'
 import { ReactCompareSlider, ReactCompareSliderImage } from 'react-compare-slider';
 import Image from 'next/image';
 
-import boobs1Before from '@/public/boobs1before.jpeg';
-import boobs1After from '@/public/boobs1after.jpeg';
-import boobs2Before from '@/public/boobs2before.jpeg';
-import boobs2After from '@/public/boobs2after.jpeg';
-import boobs3Before from '@/public/boobs3before.jpeg';
-import boobs3After from '@/public/boobs3after.jpeg';
-import boobs4Before from '@/public/boobs4before.jpeg';
-import boobs4After from '@/public/boobs4after.jpeg';
+import boobs1Before from '@/public/boobs1Before.jpeg';
+import boobs1After from '@/public/boobs1After.jpeg';
+import boobs2Before from '@/public/boobs2Before.jpeg';
+import boobs2After from '@/public/boobs2After.jpeg';
+import boobs3Before from '@/public/boobs3Before.jpeg';
+import boobs3After from '@/public/boobs3After.jpeg';
+import boobs4Before from '@/public/boobs4Before.jpeg';
+import boobs4After from '@/public/boobs4After.jpeg';
 import breastlift_before9 from '@/public/breastlift_before9.jpg';
 import breastlift_after9 from '@/public/breastlift_after9.jpg';
 import breastlift_before10 from '@/public/breastlift_before10.jpg';
