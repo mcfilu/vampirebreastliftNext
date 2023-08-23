@@ -21,7 +21,7 @@ const FatTreated = () => {
             
                 <div className={`flex flex-col bg-black justify-center items-center`}>
                     <div className={`flex h-[15vh] w-[25vw] md:w-[10vw] relative`}>
-                    <Image src={augmentation_icon2} className={`w-full h-full object-contain`} object-fit="cover" fill={true} alt=""></Image>
+                    <Image src={augmentation_icon2} objectFit="cover" objectPosition="center" fill="true" alt=""></Image>
                     </div>
                     
                     <h1 className={`text-gold1 text-[4vh] text-center font-main md:mt-[2vh]`}>Size Increase</h1>
@@ -37,7 +37,7 @@ const FatTreated = () => {
             
                 <div className={`flex flex-col bg-black justify-center items-center`}>
                     <div className={`flex h-[15vh]  w-[25vw] md:w-[10vw] relative`}>
-                    <Image src={aesthetic_icon} className={`w-full h-full object-contain`} object-fit="cover" fill={true} alt=""></Image>
+                    <Image src={aesthetic_icon} objectFit="cover" objectPosition="center" fill="true" alt=""></Image>
                     </div>
                     
                     <h1 className={`text-gold1 text-[4vh] text-center font-main md:mt-[2vh]`}>Aesthetic Enhancement</h1>
@@ -53,7 +53,7 @@ const FatTreated = () => {
             
                 <div className={`flex flex-col bg-black justify-center items-center`}>
                     <div className={`flex h-[15vh]  w-[25vw] md:w-[10vw] relative`}>
-                    <Image src={difference_icon} className={`w-full h-full object-contain`} object-fit="cover" fill={true} alt=""></Image>
+                    <Image src={difference_icon} objectFit="cover" objectPosition="center" fill="true" alt=""></Image>
                     </div>
                     
                     <h1 className={`text-gold1 text-[4vh] text-center font-main md:mt-[2vh]`}>Breast Shape</h1>

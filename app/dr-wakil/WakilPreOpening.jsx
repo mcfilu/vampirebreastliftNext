@@ -28,7 +28,7 @@ const WakilPreOpening = () => {
 
         <div className={`md:hidden flex flex-col w-full items-center`}>
         <p className={`flex text-[4.5vh] text-gold1 mt-[2vh] font-header text-center`}>Dr. SW Clinics</p>
-            {/* <Image className={`w-full h-full object-cover `} src={sherif_comp} href="Dr Sherif Wakil opening image in his office in London" object-fit="cover" fill={true}></Image> */}
+
             <div className={`flex w-full h-[30vh] relative`}>
                 <Image objectFit="cover" objectPosition="center" fill="true" alt="" src={sherif_comp}></Image>
             </div>

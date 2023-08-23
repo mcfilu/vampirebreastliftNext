@@ -22,7 +22,7 @@ const FatServices = () => {
         <div className={` flex flex-col  bg-gold1 items-center w-[100%] md:w-[29%]  shadow-[0px_0px_20px_1px_#ad9444]`}>
         <Link href="/breast-augmentation-in-london">
             <div  className={`relative flex w-full h-[40vh] overflow-hidden bg-black`}>
-            <Image object-fit="cover" fill={true} alt="" className={`flex w-full h-full  ease-in-out duration-500 object-cover hover:scale-125 transition cursor-pointer`} src={breast_augmentation2}></Image>
+            <Image objectFit="cover" objectPosition="center" fill="true" alt="" className={`flex w-full h-full  ease-in-out duration-500 object-cover hover:scale-125 transition cursor-pointer`} src={breast_augmentation2}></Image>
                 <div className={`absolute w-full top-[10vh] left-[2vw] `}>
                     <h1 className={`text-gold1 text-[5.5vh] text-left font-header`}>Breast</h1>
                     <h1 className={` text-gold1 text-[5.5vh] text-left font-header`}>Augmentation</h1>
@@ -42,7 +42,7 @@ const FatServices = () => {
         <div className={` flex flex-col items-center bg-gold1 mt-[10vh] md:mt-[0px] w-[100%] md:w-[29%] shadow-[0px_0px_20px_1px_#ad9444] `}>
         <Link href="/breast-fat-enlargement-in-london">
         <div className={`relative flex w-full h-[40vh] overflow-hidden bg-black `}>
-        <Image object-fit="cover" fill={true} alt="" className={`flex w-full h-full  ease-in-out duration-500 object-cover hover:scale-125 transition cursor-pointer`} src={boobs1}></Image>
+        <Image objectFit="cover" objectPosition="center" fill="true" alt="" className={`flex w-full h-full  ease-in-out duration-500 object-cover hover:scale-125 transition cursor-pointer`} src={boobs1}></Image>
                 <div className={`absolute w-full top-[10vh] left-[2vw] `}>
                     <h1 className={`text-gold2 text-[5.5vh] text-left font-header`}>Vampire</h1>
                     <h1 className={` text-gold2 text-[5.5vh] text-left font-header`}>BreastLift</h1>
@@ -62,7 +62,7 @@ const FatServices = () => {
         <div className={` flex flex-col  bg-gold1   w-[100%] md:w-[29%] mt-[10vh] md:mt-[0px] shadow-[0px_0px_20px_1px_#ad9444] `}>
         <Link href="/breast-reduction-in-london">
         <div className={`relative flex w-full h-[40vh] overflow-hidden bg-black`}>
-        <Image object-fit="cover" fill={true} alt="" className={`flex w-full h-full  ease-in-out duration-500 object-cover hover:scale-125 transition cursor-pointer`} src={breast_reduction2}></Image>
+        <Image objectFit="cover" objectPosition="center" fill="true" alt="" className={`flex w-full h-full  ease-in-out duration-500 object-cover hover:scale-125 transition cursor-pointer`} src={breast_reduction2}></Image>
                 <div className={`absolute w-full top-[10vh] left-[2vw] `}>
                     <h1 className={`text-gold2 text-[5.5vh] text-left font-header`}>Breast</h1>
                     <h1 className={` text-gold2 text-[5.5vh] text-left font-header`}>Reduction</h1>

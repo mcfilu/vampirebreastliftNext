@@ -19,7 +19,7 @@ const OtherServices2 = () => {
         <div  className={` flex flex-col  bg-gold1 items-center w-[100%] md:w-[29%]  shadow-[0px_0px_20px_1px_#ad9444]`}>
         <a href="https://www.pshot.co.uk">
             <div  className={`relative flex w-full h-[40vh] overflow-hidden bg-black`}>
-            <Image object-fit="cover" fill={true} alt="" className={`flex w-full h-full  ease-in-out duration-500 object-cover hover:scale-125 transition cursor-pointer`} src={pshot}></Image>
+            <Image objectFit="cover" objectPosition="center" fill="true" alt="" className={`flex w-full h-full  ease-in-out duration-500 object-cover hover:scale-125 transition cursor-pointer`} src={pshot}></Image>
                 <div className={`absolute w-full top-[10vh] left-[2vw] `}>
                     <h1 className={`text-gold1 text-[5.5vh] text-left font-header`}>The P-Shot</h1>
                     <h1 className={` text-gold1 text-[5.5vh] text-left font-header`}>Penis PRP</h1>
@@ -38,7 +38,7 @@ const OtherServices2 = () => {
         <div  className={` flex flex-col  bg-gold1 items-center w-[100%] md:w-[29%]  shadow-[0px_0px_20px_1px_#ad9444]`}>
         <a href="https://www.oshot.uk">
         <div className={`relative flex w-full h-[40vh] overflow-hidden bg-black `}>
-        <Image object-fit="cover" fill={true} alt="" className={`flex w-full h-full  ease-in-out duration-500 object-cover hover:scale-125 transition cursor-pointer`} src={oshot}></Image>
+        <Image objectFit="cover" objectPosition="center" fill="true" alt="" className={`flex w-full h-full  ease-in-out duration-500 object-cover hover:scale-125 transition cursor-pointer`} src={oshot}></Image>
                 <div className={`absolute w-full top-[10vh] left-[2vw] `}>
                     <h1 className={`text-gold2 text-[5.5vh] text-left font-header`}>The O-Shot</h1>
                     <h1 className={` text-gold2 text-[5.5vh] text-left font-header`}>Vagina PRP</h1>
@@ -57,7 +57,7 @@ const OtherServices2 = () => {
         <div  className={` flex flex-col  bg-gold1   w-[100%] md:w-[29%] mt-[10vh] md:mt-[0px] shadow-[0px_0px_20px_1px_#ad9444] `}>
         <a href="https://www.drswclinics.co.uk">
         <div className={`relative flex w-full h-[40vh] overflow-hidden bg-black`}>
-        <Image object-fit="cover" fill={true} alt="" className={`flex w-full h-full  ease-in-out duration-500 object-cover hover:scale-125 transition cursor-pointer`} src={clinic2}></Image>
+        <Image objectFit="cover" objectPosition="center" fill="true" alt="" className={`flex w-full h-full  ease-in-out duration-500 object-cover hover:scale-125 transition cursor-pointer`} src={clinic2}></Image>
                 <div className={`absolute w-full top-[10vh] left-[2vw] `}>
                     <h1 className={`text-gold2 text-[5.5vh] text-left font-header`}>Dr. SW</h1>
                     <h1 className={` text-gold2 text-[5.5vh] text-left font-header`}>Clinics</h1>

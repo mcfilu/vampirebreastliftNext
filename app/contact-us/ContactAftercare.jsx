@@ -42,7 +42,7 @@ const ContactAftercare = () => {
             <div className={`flex w-full h-[50vh] relative`}>
             <Image  objectFit="cover" objectPosition="center" fill="true" alt="" src="/clinic_hallway.jpeg"></Image>
             </div>
-            {/* <Image className={`w-full h-full object-cover `} object-fit="contain" fill={true} src="/clinic_hallway.jpeg"></Image> */}
+
             <div className={`flex flex-col w-[100%] items-center justify-center my-auto p-[1vh]`}>
             
                 
