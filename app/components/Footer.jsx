@@ -6,6 +6,7 @@ import '@fortawesome/fontawesome-svg-core/styles.css'
 
 // import { Link } from 'react-router-dom';
 import Link from 'next/link';
+import Image from 'next/image';
 import logo_no_border from '../../public/logo_no_border.svg';
 import footer1 from '../../public/footer1.png';
 import footer2 from '../../public/footer2.png';
@@ -14,11 +15,13 @@ import bcam from '../../public/bcam.png';
 
 const Footer = () => {
   return (
-    <footer className="bg-black text-white py-8 pb-[1vh] border-gold1 border-t-4 pb-[6vh]">
-      <div className="w-full flex flex-col md:flex-row justify-between ">
+    <footer className="bg-black text-white py-8 pb-[1vh] border-gold1 border-t-4 pb-[6vh] md:h-[36vh]">
+      <div className="w-full flex flex-col md:flex-row justify-between h-[84%]">
         {/* Logo */}
-        <div className="flex flex-col ml-[3vh] items-center justify-center">
-          <img src={logo_no_border.src} alt="Logo" className={`h-[12vh] flex `} />
+        <div className="flex flex-col ml-[3vh] items-center justify-center h-full w-[12vw] ">
+          <div className={`flex items-center justify-center w-full h-full relative`}>
+            <Image objectFit="contain" objectPosition="center" fill="true" alt="" src={logo_no_border}></Image>
+          </div> 
         </div>
         
         {/* Contact Information */}
@@ -61,10 +64,22 @@ const Footer = () => {
         <div className="text-[0.7vw] flex flex-col md:mr-[3vh] md:w-[20vw]">
             <h1 className={`text-[4vh] md:text-[3vh] text-gold1 text-center md:text-left font-bold mb-[3vh] mt-[1.5vh] text-center font-header`}>Accredited</h1>
             <div className={`grid grid-cols-2 md:grid-cols-4 place-items-center`}>
-                <img src={footer1.src} alt="Logo" className="h-[8vh] m-[0.9vh] ml-0" />
+              <div className={`flex items-center justify-center w-full h-[8vh] m-[0.9vh] ml-0 relative`}>
+                <Image objectFit="contain" objectPosition="center" fill="true" alt="" src={footer1}></Image>
+              </div> 
+              <div className={`flex items-center justify-center w-full h-[8vh] m-[0.9vh] ml-0 relative`}>
+                <Image objectFit="contain" objectPosition="center" fill="true" alt="" src={footer2}></Image>
+              </div> 
+              <div className={`flex items-center justify-center w-full h-[8vh] m-[0.9vh] ml-0 relative`}>
+                <Image objectFit="contain" objectPosition="center" fill="true" alt="" src={bcam}></Image>
+              </div> 
+              <div className={`flex items-center justify-center w-full h-[8vh] m-[0.9vh] ml-0 relative`}>
+                <Image objectFit="contain" objectPosition="center" fill="true" alt="" src={footer4}></Image>
+              </div> 
+                {/* <img src={footer1.src} alt="Logo" className="h-[8vh] m-[0.9vh] ml-0" />
                 <img src={footer2.src } alt="Logo" className="h-[8vh] m-[0.9vh]" />
                 <img src={bcam.src} alt="Logo" className="h-[8vh] m-[0.9vh]" />
-                <img src={footer4.src } alt="Logo" className="h-[8vh] m-[0.9vh]" />
+                <img src={footer4.src } alt="Logo" className="h-[8vh] m-[0.9vh]" /> */}
             </div>
          
         </div>

@@ -10,23 +10,29 @@ import award4 from '../../public/award4.png';
 import award5 from '../../public/award5.png';
 import award6 from '../../public/award6.png';
 import { useEffect, useState} from 'react';
+import Image from 'next/image';
 // import img from 'next/img';
 
 
 
-
+{/* <img  src={award1.src} alt="First clinic Award img"  role="presentation" />, */}
 
 const Awards = () => {
 const handleDragStart = (e) => e.preventDefault();
 const [items, setItems] = useState([]);
 useEffect(() => {
   setItems([
-    <img className={`pl-2 pr-2 h-[17vh] object-contain mx-auto`} src={award1.src} alt="First clinic Award img" onDragStart={handleDragStart} role="presentation" />,
-    <img className={`pl-2 pr-2 h-[17vh] object-contain mx-auto`} src={award2.src} alt="yours lawfully logo" onDragStart={handleDragStart} role="presentation" />,
-    <img className={`pl-2 pr-2 h-[17vh] object-contain mx-auto`} src={award3.src} alt="yours lawfully logo" onDragStart={handleDragStart} role="presentation" />,
-    <img className={`pl-2 pr-2 h-[17vh] object-contain mx-auto`} src={award4.src} alt="yours lawfully logo" onDragStart={handleDragStart} role="presentation" />,
-    <img className={`pl-2 pr-2 h-[17vh] object-contain mx-auto`} src={award5.src} alt="yours lawfully logo" onDragStart={handleDragStart} role="presentation" />,
-    <img className={`pl-2 pr-2 h-[17vh] object-contain mx-auto `} src={award6.src} alt="yours lawfully logo" onDragStart={handleDragStart} role="presentation" />,
+    <div className={`pl-2 pr-2 h-[17vh] object-contain mx-auto`} onDragStart={handleDragStart}><Image objectFit="contain" objectPosition="center" fill="true" alt="" src={award1}></Image></div>,
+    <div className={`pl-2 pr-2 h-[17vh] object-contain mx-auto`} onDragStart={handleDragStart}><Image objectFit="contain" objectPosition="center" fill="true" alt="" src={award2}></Image></div>,
+    <div className={`pl-2 pr-2 h-[17vh] object-contain mx-auto`} onDragStart={handleDragStart}><Image objectFit="contain" objectPosition="center" fill="true" alt="" src={award3}></Image></div>,
+    <div className={`pl-2 pr-2 h-[17vh] object-contain mx-auto`} onDragStart={handleDragStart}><Image objectFit="contain" objectPosition="center" fill="true" alt="" src={award4}></Image></div>,
+    <div className={`pl-2 pr-2 h-[17vh] object-contain mx-auto`} onDragStart={handleDragStart}><Image objectFit="contain" objectPosition="center" fill="true" alt="" src={award5}></Image></div>,
+    <div className={`pl-2 pr-2 h-[17vh] object-contain mx-auto`} onDragStart={handleDragStart}><Image objectFit="contain" objectPosition="center" fill="true" alt="" src={award6}></Image></div>,
+    // <img className={`pl-2 pr-2 h-[17vh] object-contain mx-auto`} src={award2.src} alt="yours lawfully logo" onDragStart={handleDragStart} role="presentation" />,
+    // <img className={`pl-2 pr-2 h-[17vh] object-contain mx-auto`} src={award3.src} alt="yours lawfully logo" onDragStart={handleDragStart} role="presentation" />,
+    // <img className={`pl-2 pr-2 h-[17vh] object-contain mx-auto`} src={award4.src} alt="yours lawfully logo" onDragStart={handleDragStart} role="presentation" />,
+    // <img className={`pl-2 pr-2 h-[17vh] object-contain mx-auto`} src={award5.src} alt="yours lawfully logo" onDragStart={handleDragStart} role="presentation" />,
+    // <img className={`pl-2 pr-2 h-[17vh] object-contain mx-auto `} src={award6.src} alt="yours lawfully logo" onDragStart={handleDragStart} role="presentation" />,
   ]);
 }, [])
 

@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-key */
 'use client'
 import React from 'react';
 // import { trustpilot_logo, trustpilot_star.src } from '../assets';
@@ -6,6 +7,7 @@ import trustpilot_star from '../../public/5star.svg';
 import AliceCarousel from 'react-alice-carousel';
 import { useEffect, useState } from 'react';
 import 'react-alice-carousel/lib/alice-carousel.css';
+import Image from 'next/image';
 // import "react-alice-carousel/lib/scss/alice-carousel.scss";
 
 const TrustPilotSlider = () => {
@@ -14,8 +16,10 @@ const TrustPilotSlider = () => {
         setItems([
             <div className={`flex flex-col h-full  items-center px-[1vw]`}>
     
-                <div className={`w-full flex flex-row justify-between`}>
-                    <img src={trustpilot_star.src} className={`w-1/2`}></img>
+                <div className={`w-full flex h-[3vh] flex-row justify-between`}>
+                    <div className={`flex w-[50%] h-full relative`}>
+                        <Image objectFit="cover" objectPosition="center" fill="true" alt="" src={trustpilot_star}></Image>
+                    </div>
                     <p className={`text-gray-400 font-main`}>Jun 1, 2021</p>
                 </div>
     
@@ -28,9 +32,11 @@ const TrustPilotSlider = () => {
     
             <div className={`flex flex-col h-full  items-center px-[1vw]`}>
     
-                <div className={`w-full flex flex-row justify-between`}>
-                    <img src={trustpilot_star.src} className={`w-1/2`}></img>
-                    <p className={`text-gray-400 font-main`}>Jun 25, 2023</p>
+                <div className={`w-full flex h-[3vh] flex-row justify-between`}>
+                    <div className={`flex w-[50%] h-full relative`}>
+                        <Image objectFit="cover" objectPosition="center" fill="true" alt="" src={trustpilot_star}></Image>
+                    </div>
+                    <p className={`text-gray-400 font-main`}>Jun 1, 2021</p>
                 </div>
     
                 <div className={`flex flex-col w-full items-start mt-[3vh]`}>
@@ -43,9 +49,11 @@ const TrustPilotSlider = () => {
             
             <div className={`flex flex-col h-full  items-center px-[1vw]`}>
     
-                <div className={`w-full flex flex-row justify-between`}>
-                    <img src={trustpilot_star.src} className={`w-1/2`}></img>
-                    <p className={`text-gray-400 font-main`}>Jun 23, 2023</p>
+                <div className={`w-full flex h-[3vh] flex-row justify-between`}>
+                    <div className={`flex w-[50%] h-full relative`}>
+                        <Image objectFit="cover" objectPosition="center" fill="true" alt="" src={trustpilot_star}></Image>
+                    </div>
+                    <p className={`text-gray-400 font-main`}>Jun 1, 2021</p>
                 </div>
     
                 <div className={`flex flex-col w-full items-start mt-[3vh]`}>
@@ -57,10 +65,12 @@ const TrustPilotSlider = () => {
     
             <div className={`flex flex-col h-full  items-center px-[1vw]`}>
     
-            <div className={`w-full flex flex-row justify-between`}>
-                <img src={trustpilot_star.src} className={`w-1/2`}></img>
-                <p className={`text-gray-400 font-main`}>Apr 11, 2023</p>
-            </div>
+                <div className={`w-full flex h-[3vh] flex-row justify-between`}>
+                    <div className={`flex w-[50%] h-full relative`}>
+                        <Image objectFit="cover" objectPosition="center" fill="true" alt="" src={trustpilot_star}></Image>
+                    </div>
+                    <p className={`text-gray-400 font-main`}>Jun 1, 2021</p>
+                </div>
     
             <div className={`flex flex-col w-full items-start mt-[3vh]`}>
                 <p className={`text-white text-[2vh] font-bold text-left font-main`}>Fantastic results!</p>
@@ -71,10 +81,12 @@ const TrustPilotSlider = () => {
     
             <div className={`flex flex-col h-full  items-center px-[1vw]`}>
     
-            <div className={`w-full flex flex-row justify-between`}>
-                <img src={trustpilot_star.src} className={`w-1/2`}></img>
-                <p className={`text-gray-400 font-main`}>Jun 24, 2023</p>
-            </div>
+                <div className={`w-full flex h-[3vh] flex-row justify-between`}>
+                    <div className={`flex w-[50%] h-full relative`}>
+                        <Image objectFit="cover" objectPosition="center" fill="true" alt="" src={trustpilot_star}></Image>
+                    </div>
+                    <p className={`text-gray-400 font-main`}>Jun 1, 2021</p>
+                </div>
     
             <div className={`flex flex-col w-full items-start mt-[3vh]`}>
                 <p className={`text-white text-[2vh] font-bold text-left font-main`}>Excellent doctor</p>
@@ -86,10 +98,12 @@ const TrustPilotSlider = () => {
     
             <div className={`flex flex-col h-full  items-center px-[1vw]`}>
     
-            <div className={`w-full flex flex-row justify-between`}>
-                <img src={trustpilot_star.src} className={`w-1/2`}></img>
-                <p className={`text-gray-400 font-main`}>Apr 8, 2023</p>
-            </div>
+                <div className={`w-full flex h-[3vh] flex-row justify-between`}>
+                    <div className={`flex w-[50%] h-full relative`}>
+                        <Image objectFit="cover" objectPosition="center" fill="true" alt="" src={trustpilot_star}></Image>
+                    </div>
+                    <p className={`text-gray-400 font-main`}>Jun 1, 2021</p>
+                </div>
     
             <div className={`flex flex-col w-full items-start mt-[3vh]`}>
                 <p className={`text-white text-[2vh] font-bold text-left font-main`}>Tired of tires eyes</p>
@@ -100,10 +114,12 @@ const TrustPilotSlider = () => {
     
             <div className={`flex flex-col h-full  items-center px-[1vw]`}>
     
-            <div className={`w-full flex flex-row justify-between`}>
-                <img src={trustpilot_star.src} className={`w-1/2`}></img>
-                <p className={`text-gray-400 font-main`}>Jan 12, 2023</p>
-            </div>
+                 <div className={`w-full flex h-[3vh] flex-row justify-between`}>
+                    <div className={`flex w-[50%] h-full relative`}>
+                        <Image objectFit="cover" objectPosition="center" fill="true" alt="" src={trustpilot_star}></Image>
+                    </div>
+                    <p className={`text-gray-400 font-main`}>Jun 1, 2021</p>
+                </div>
     
             <div className={`flex flex-col w-full items-start mt-[3vh]`}>
                 <p className={`text-white text-[2vh] font-bold text-left font-main`}>Highly Recommend</p>
@@ -114,10 +130,12 @@ const TrustPilotSlider = () => {
     
             <div className={`flex flex-col h-full items-center px-[1vw]`}>
     
-            <div className={`w-full flex flex-row justify-between`}>
-                <img src={trustpilot_star.src} className={`w-1/2`}></img>
-                <p className={`text-gray-400 font-main`}>Nov 29, 2022</p>
-            </div>
+                <div className={`w-full flex h-[3vh] flex-row justify-between`}>
+                    <div className={`flex w-[50%] h-full relative`}>
+                        <Image objectFit="cover" objectPosition="center" fill="true" alt="" src={trustpilot_star}></Image>
+                    </div>
+                    <p className={`text-gray-400 font-main`}>Jun 1, 2021</p>
+                </div>
     
             <div className={`flex flex-col w-full items-start mt-[3vh]`}>
                 <p className={`text-white text-[2vh] font-bold text-left font-main`}>Fantastic Experience</p>
@@ -142,16 +160,20 @@ const TrustPilotSlider = () => {
         <div className={`flex w-full flex-col md:flex-row`}>
         
             <div className={`flex flex-col h-full w-full md:w-[20%] items-center mb-[5vh] md:mb-0`}>
-                <a href="https://www.trustpilot.com/review/www.drswclinics.com" className={`flex flex-col items-center`}>
+                <a href="https://www.trustpilot.com/review/www.drswclinics.com" className={`flex flex-col items-center w-full h-full`}>
                 <p className={`text-white text-[5vh] mb-[2vh] font-main`}>Excellent!</p>
-                <img src={trustpilot_star.src}></img>
+                <div className={`flex w-[50%] h-[4vh] md:w-[70%] mt-[3vh] relative`}>
+                    <Image objectFit="cover" objectPosition="center" fill="true" alt="" src={trustpilot_star}></Image>
+                </div>
                 <div className={`flex flex-row`}>
                 <p className={`text-white text-[2.5vh] mt-[2vh] font-main`}>Based on</p>
                 <p className={`text-white text-[2.5vh] mt-[2vh] underline underline-offset-8 ml-[1vh] font-main`}>72 reviews</p>
-            </div>
-            
-            <img src={trustpilot_logo.src} className={`w-[50%] md:w-[70%] mt-[3vh]`}></img>
-            </a>
+                </div>
+                <div className={`flex w-[50%] md:w-[70%] mt-[3vh] relative h-[7vh]`}>
+                    <Image objectFit="contain" objectPosition="center" fill="true" alt="" src={trustpilot_logo}></Image>
+                </div>
+                {/* <img src={trustpilot_logo.src} ></img> */}
+                </a>
         </div>
 
         <div className={`flex w-full md:w-[80%]`}>

@@ -1,6 +1,7 @@
 'use client'
 import React from 'react'
-// import { independent, thesun, media4, tatler, sky, channel4 } from '../assets'
+import Image from 'next/image';
+
 import independent from '../../public/independent.png';
 import thesun from '../../public/thesun.png';
 import media4 from '../../public/media4.png';
@@ -23,12 +24,18 @@ const Media = () => {
 const [items, setItems] = useState([]);
 useEffect(() => {
   setItems([
-  <img className="pl-2 pr-2 h-[11vh] object-contain mx-auto" src={independent.src} onDragStart={handleDragStart} role="presentation" />,
-  <img className="pl-2 pr-2 h-[11vh] object-contain mx-auto" src={sky.src} onDragStart={handleDragStart} role="presentation" />,
-  <img className="pl-2 pr-2 h-[11vh] object-contain mx-auto" src={thesun.src} onDragStart={handleDragStart} role="presentation" />,
-//   <div className={`flex items-center justify-center h-[11vh]`}><p className={`flex items-center justify-center text-white`}>ajdfklsdf</p></div>
-  <img className="pl-2 pr-2 h-[11vh] object-contain mx-auto" src={tatler.src} onDragStart={handleDragStart} role="presentation" />,
-  <img className="pl-2 pr-2 h-[11vh] object-contain mx-auto " src={channel4.src} onDragStart={handleDragStart} role="presentation" />
+    <div className={`pl-2 pr-2 h-[12vh] object-contain mx-auto`} onDragStart={handleDragStart}><Image objectFit="contain" objectPosition="center" fill="true" alt="" src={independent}></Image></div>,
+    <div className={`pl-2 pr-2 h-[12vh] object-contain mx-auto`} onDragStart={handleDragStart}><Image objectFit="contain" objectPosition="center" fill="true" alt="" src={sky}></Image></div>,
+    <div className={`pl-2 pr-2 h-[12vh] object-contain mx-auto`} onDragStart={handleDragStart}><Image objectFit="contain" objectPosition="center" fill="true" alt="" src={thesun}></Image></div>,
+    <div className={`pl-2 pr-2 h-[12vh] object-contain mx-auto`} onDragStart={handleDragStart}><Image objectFit="contain" objectPosition="center" fill="true" alt="" src={tatler}></Image></div>,
+    <div className={`pl-2 pr-2 h-[12vh] object-contain mx-auto`} onDragStart={handleDragStart}><Image objectFit="contain" objectPosition="center" fill="true" alt="" src={channel4}></Image></div>,
+    // <div className={`pl-2 pr-2 h-[17vh] object-contain mx-auto`} onDragStart={handleDragStart}><Image objectFit="contain" objectPosition="center" fill="true" alt="" src={award6}></Image></div>,
+//   <img className="pl-2 pr-2 h-[11vh] object-contain mx-auto" src={independent.src} onDragStart={handleDragStart} role="presentation" />,
+//   <img className="pl-2 pr-2 h-[11vh] object-contain mx-auto" src={sky.src} onDragStart={handleDragStart} role="presentation" />,
+//   <img className="pl-2 pr-2 h-[11vh] object-contain mx-auto" src={thesun.src} onDragStart={handleDragStart} role="presentation" />,
+// //   <div className={`flex items-center justify-center h-[11vh]`}><p className={`flex items-center justify-center text-white`}>ajdfklsdf</p></div>
+//   <img className="pl-2 pr-2 h-[11vh] object-contain mx-auto" src={tatler.src} onDragStart={handleDragStart} role="presentation" />,
+//   <img className="pl-2 pr-2 h-[11vh] object-contain mx-auto " src={channel4.src} onDragStart={handleDragStart} role="presentation" />
   ]);
 }, [])
 
