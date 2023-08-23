@@ -27,7 +27,7 @@ export default function RootLayout({ children }) {
         <GoogleAnalytics/>
         <GoogleTagManager id="GTM-MN4QV5Z4" />
         {children}
-        <Script strategy="afterInteractive" data-bot-id="a243d8ad-44a1-4441-aecd-b9b2a08ff886" src="https://launcher.enquirybot.com/index.js"></Script>
+        {/* <Script strategy="afterInteractive" data-bot-id="a243d8ad-44a1-4441-aecd-b9b2a08ff886" src="https://launcher.enquirybot.com/index.js"></Script> */}
         </body>
     </html>
   )
