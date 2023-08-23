@@ -47,7 +47,7 @@ const Navbar = () => {
   return (
     <nav className = {`w-full flex flex-col py-[2.4vh] justify-between items-center fixed pl-[3vh] pr-[3vh] ${color ? 'bg-black bg-opacity-95' : ''} ease-in-out duration-500`}>
         <div className={`hidden md:flex w-full flex flex-row`}>
-        <Link href="/"><img src="/logo_no_border.svg" object-fit="cover" fill={true} alt="yours lawfully logo" className={`${color ? 'w-[16.3vh]' : 'w-[21.3vh]'} ease-in-out duration-500`}></img></Link>
+        <Link href="/" prefetch={false}><img src="/logo_no_border.svg" object-fit="cover" fill={true} alt="yours lawfully logo" className={`${color ? 'w-[16.3vh]' : 'w-[21.3vh]'} ease-in-out duration-500`}></img></Link>
 
             <ul className="list-none md:flex hidden items-center justify-center flex-1 ">
             {navLinks && navLinks.map((nav,index) => (
@@ -58,7 +58,7 @@ const Navbar = () => {
                 className={`hover-underline-animation flex font-main h-[100%] font-normal cursor-pointer  ${color ? 'text-[1.3vw]' : 'text-[1.4vw]'} ease-in-out duration-500 mx-[1.7vh] pt-[2.4vh] text-white ${active_path=== nav.link ? 'text-gold1' : ''} hover:text-gold1 `}   
                 >
                 {/* <a href={`#${nav.id}`}> {nav.title} </a> */}
-                <Link className={`flex items-center justify-center`} href={nav.link}>{nav.title}</Link>
+                <Link className={`flex items-center justify-center`} href={nav.link} prefetch={false}>{nav.title}</Link>
                 </li>
             ))}
             </ul>
@@ -83,7 +83,7 @@ const Navbar = () => {
                   className={`hover-underline-animation flex font-main font-normal cursor-pointer ${color ? 'text-[1.3vw]' : 'text-[1.4vw]'} ease-in-out duration-500 mx-[1.7vh] py-[1.7vh] text-white ${active_path=== nav.link ? 'text-gold1' : ''} hover:text-gold1 `}   
                   >
                 {/* <a href={`#${nav.id}`}> {nav.title} </a> */}
-                <Link className={`flex items-center`} href={nav.link}>{nav.title}</Link>
+                <Link className={`flex items-center`} href={nav.link} prefetch={false}>{nav.title}</Link>
                 </li>
             ))}
             </ul>
@@ -92,12 +92,12 @@ const Navbar = () => {
 
 
             <div  className="md:hidden flex flex-row justify-between items-center w-full">
-            <Link href="/"><img src="/logo_no_border.svg" object-fit="cover" fill={true} alt="yours lawfully logo" 
+            <Link href="/" prefetch={false}><img src="/logo_no_border.svg" object-fit="cover" fill={true} alt="yours lawfully logo" 
    className={`${color ? 'w-[16.3vh]' : 'w-[21.3vh]'} ease-in-out duration-500`}></img></Link>
             <img src={toggle ? close.src : menu.src} alt="menu" object-fit="cover" fill={true} className='w-[28px] h-[28px] object-contain' onClick={() => setToggle((prev) => !prev)}></img>
               <div className={`${toggle ? 'flex' : 'hidden'} flex-col p-6 bg-black absolute top-0 left-0 h-[100vh] w-[100vw]`}>
                 <div className={`flex flex-row justify-between items-center`}>
-                  <Link href="/"><img src="/logo_no_border.svg" object-fit="cover" fill={true} alt="yours lawfully logo" className={`${color ? 'w-[16.3vh]' : 'w-[21.3vh]'} ease-in-out duration-500`}></img></Link>
+                  <Link href="/" prefetch={false}><img src="/logo_no_border.svg" object-fit="cover" fill={true} alt="yours lawfully logo" className={`${color ? 'w-[16.3vh]' : 'w-[21.3vh]'} ease-in-out duration-500`}></img></Link>
                   <img src={toggle ? close.src : menu.src} alt="menu" object-fit="cover" fill={true} className='w-[28px] h-[28px] object-contain' onClick={() => setToggle((prev) => !prev)}></img>
                 </div>
                 <div className={`flex flex-col justify-center flex-1`}>
@@ -113,7 +113,7 @@ const Navbar = () => {
                       >
 
 
-                        <Link className={`flex items-center`} href={nav.link}>{nav.title}</Link>
+                        <Link className={`flex items-center`} href={nav.link} prefetch={false}>{nav.title}</Link>
                         
                       </li>
                       {nav.id === "other-tratments" && (
@@ -125,7 +125,7 @@ const Navbar = () => {
                             className={`hover-underline-animation flex font-main font-normal cursor-pointer text-[2.5vh] ease-in-out duration-500 mx-[1vh] py-[1vh] text-white ${active_path=== nav2.link ? 'text-gold1' : ''} hover:text-gold1 `}   
                           >
 
-                          <Link className={`flex items-center`} href={nav2.link}>{nav2.title}</Link>
+                          <Link className={`flex items-center`} href={nav2.link} prefetch={false}>{nav2.title}</Link>
                           </li>
                         ))}
                         
