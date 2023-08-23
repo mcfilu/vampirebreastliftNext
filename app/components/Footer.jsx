@@ -15,11 +15,11 @@ import bcam from '../../public/bcam.png';
 
 const Footer = () => {
   return (
-    <footer className="bg-black text-white py-8 pb-[1vh] border-gold1 border-t-4 pb-[6vh] md:h-[36vh]">
+    <footer className="bg-black text-white  pt-[2vh] md:py-8 pb-[1vh] border-gold1 border-t-4 pb-[6vh] md:h-[36vh]">
       <div className="w-full flex flex-col md:flex-row justify-between h-[84%]">
         {/* Logo */}
-        <div className="flex flex-col ml-[3vh] items-center justify-center h-full w-[12vw] ">
-          <div className={`flex items-center justify-center w-full h-full relative`}>
+        <div className="flex flex-col md:ml-[3vh] items-center justify-center h-[15vh] md:h-full w-full md:w-[12vw] ">
+          <div className={`flex items-center justify-center w-[50%] md:w-full h-full relative`}>
             <Image objectFit="contain" objectPosition="center" fill="true" alt="" src={logo_no_border}></Image>
           </div> 
         </div>
