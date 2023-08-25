@@ -1,8 +1,26 @@
+'use client'
 import React from 'react'
 import '@fortawesome/fontawesome-free/css/all.min.css';
 import Link from 'next/link';
+import { useEffect, useRef } from 'react';
 
 const BreastLiftDetails = () => {
+    useEffect(() => {
+        const video = document.querySelector("video");
+
+        function handleIntersection(entries) {
+        entries.map(async (entry) => {
+            if (entry.isIntersecting) {
+            const res = await fetch("/blood_cells_desktop.mp4");
+            const data = await res.blob();
+            video.src = URL.createObjectURL(data);
+            }
+        });
+        }
+
+        const observer = new IntersectionObserver(handleIntersection);
+        observer.observe(video);
+    }, [])
   return (
     <div className={` flex w-full flex-row     `}>
          
@@ -34,14 +52,14 @@ const BreastLiftDetails = () => {
                 /></p> */}
         </div>
         <div className={`hidden md:flex w-[45%] h-[100%] flex items-center`}>
-            
-            <video src="/blood_cells_desktop.mp4" autoPlay loop muted className={` object-cover w-[100%] h-[100%]`}></video>
+
+            <video autoPlay loop muted className={` object-cover w-[100%] h-[100%]`}></video>
             {/* <img className={`w-full h-full object-cover`} src={sherif}></img> */}
         </div>
 
         <div className={`flex flex-col md:hidden items-center`}>
             <p className={`flex text-gold1 text-[6vh] text-center font-header`}>How does it work?</p>
-            <video src="/blood_cells_mobile.mp4" autoPlay loop muted playsInline className={` object-cover h-[100%]`}></video>
+            {/* <video src="/blood_cells_mobile.mp4" autoPlay loop muted playsInline className={` object-cover h-[100%]`}></video> */}
                 <p className={`flex text-white text-[2.2vh] mt-[5vh] ml-[1vh] font-main`}>Through utilizing regenerative growth factors derived from your own blood, the non-surgical breast lift offers a remarkable solution to enhance cleavage and restore lost volume in the upper breast area, achieving a more pronounced and captivating appearance.</p>
                 <p className={`flex text-white text-[2.2vh] mt-[1.5vh] ml-[1vh] font-main`}>Vampire Treatments, also known as PRP or Platelet Rich Plasma Rejuvenation, have garnered significant attention as one of the most sought-after rejuvenation procedures in recent years. Harnessing the body's innate healing and regenerative capabilities, this groundbreaking technique effectively combats facial aging while lifting and enhancing the breasts, earning acclaim among celebrities.</p>
                 <p className={`flex text-white text-[2.2vh] mt-[1.5vh] ml-[1vh] font-main`}>As the sole UK doctor and the exclusive European practitioner certified by the inventor of Vampire treatments, and listed on the official Vampire Facelift™ website, Dr. Wakil stands as a leading authority in this pioneering methodology.</p>
