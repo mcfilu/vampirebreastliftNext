@@ -1,8 +1,9 @@
 import './globals.css'
 import { Inter } from 'next/font/google'
 import Script from 'next/script';
-// import GoogleAnalytics from './components/GoogleAnalytics';
-// import GoogleTagManager from '@magicul/next-google-tag-manager';
+import { Suspense } from 'react';
+import GoogleAnalytics from './components/GoogleAnalytics';
+import GoogleTagManager from '@magicul/next-google-tag-manager';
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -24,10 +25,16 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={inter.className}>
-        {/* <GoogleAnalytics/> */}
-        {/* <GoogleTagManager id="GTM-MN4QV5Z4" /> */}
+        <Suspense fallback={<></>}>
+          <GoogleAnalytics/>
+        </Suspense>
+        <Suspense fallback={<></>}>
+          <GoogleTagManager id="GTM-MN4QV5Z4" />
+        </Suspense>
+        
+        
         {children}
-        {/* <Script strategy="afterInteractive" data-bot-id="a243d8ad-44a1-4441-aecd-b9b2a08ff886" src="https://launcher.enquirybot.com/index.js"></Script> */}
+        <Script strategy="afterInteractive" data-bot-id="a243d8ad-44a1-4441-aecd-b9b2a08ff886" src="https://launcher.enquirybot.com/index.js"></Script>
         </body>
     </html>
   )
