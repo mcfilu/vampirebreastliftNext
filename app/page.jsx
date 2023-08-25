@@ -1,4 +1,5 @@
 import React from 'react'
+import dynamic from 'next/dynamic'
 import Navbar from './components/Navbar'
 import Footer from './components/Footer'
 import BookNow from './components/BookNow'
@@ -11,7 +12,7 @@ import FooterBook from './components/FooterBook'
 import OtherServices from './components/OtherServices'
 
 import BreastLiftBenefits from './vampirebreastlift/BreastLiftBenefits'
-import BreastLiftDetails from './vampirebreastlift/BreastLiftDetails'
+// import BreastLiftDetails from './vampirebreastlift/BreastLiftDetails'
 import BreastLiftOpening from './vampirebreastlift/BreastLiftOpening'
 import BreastLiftSummary from './vampirebreastlift/BreastLiftSummary'
 import BreastLiftTreated from './vampirebreastlift/BreastLiftTreated'
@@ -19,6 +20,8 @@ import BreastLiftVideo from './vampirebreastlift/BreastLiftVideo'
 import BreastliftFaqs from './vampirebreastlift/BreastliftFaqs'
 import BreastliftImage from './vampirebreastlift/BreastliftImage'
 import BreastliftCompare from './vampirebreastlift/BreastliftCompare'
+
+const BreastLiftDetails = dynamic(() => import('./vampirebreastlift/BreastLiftDetails'))
 
 export const metadata = {
   title: 'Non Surgical Breast Lift in London | Vampire Breast Lift',
