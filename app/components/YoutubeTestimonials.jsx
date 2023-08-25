@@ -14,6 +14,7 @@ import { useEffect, useState } from 'react';
 
 const YoutubeTestimonials = () => {
   const [sliderValue, setSliderValue] = useState(1);
+  const [showDots, setDots] = useState(false);
   
 
   useEffect(() => {
@@ -58,7 +59,7 @@ const YoutubeTestimonials = () => {
       
         <h1 className={`text-gold1 text-[5vh] font-header text-center`}>Patients Testimonials</h1>
         
-      <div className=" w-[95%] mx-auto my-auto ">
+      <div className=" w-[95%] mx-auto my-auto overflow-hidden ">
       <Slider {...settings}>
           <div className={`md:min-h-[65vh] p-6 px-[2vw] my-[5vh]`}>
             <div className={`flex flex-col w-full h-full items-center justify-center bg-black bg-opacity-80  p-[2vh] shadow-[0px_0px_20px_1px_#ad9444]`}>

@@ -33,7 +33,7 @@ const VampireBreastLift = () => {
   return (
     <div className={`w-full`}>
       
-        <div className={`fixed z-10 `}>
+        <div className={`w-full fixed z-10 `}>
             <Navbar/>
         </div>
         <div className={`fixed w-full bottom-0 left-0 z-20 `}>
