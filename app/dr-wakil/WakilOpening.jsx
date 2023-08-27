@@ -1,15 +1,12 @@
 import React from 'react'
-// import { sherif_hands } from '../assets'
+// import { sherif_comp } from '../assets'
 import Image from 'next/image'
-import sherif_hands from '../../public/sherif_hands.jpeg'
+import sherif_comp from '../../public/sherif_comp.jpeg'
 
 const WakilOpening = () => {
   return (
     <div className={`flex w-full flex-row md:min-h-[55vh]  md:p-[2vh] md:pl-[0px]`}>
-        <div className={`hidden md:flex w-[45%]  flex items-center relative`}>
-            {/* <video src={BloodCells} autoPlay loop muted className={`rounded-[9px] object-cover h-[100%]`}></video> */}
-            <Image  src={sherif_hands} objectFit="cover" objectPosition="center" fill="true" alt=""></Image>
-        </div>
+        
         <div className={`hidden md:flex w-[55%] h-[100%]  p-[2vh] flex flex-col items-left justify-between `}>
             <div className={` flex flex-col w-[100%]  bg-opacity-40  items-center justify-center my-auto`}>
             {/* <i className={`fa-solid fa-quote-right mr-[0.9vw] text-gold1 text-left text-[1.3vw]`}></i> */}
@@ -22,7 +19,10 @@ const WakilOpening = () => {
             </div>
             
         </div>
-        
+        <div className={`hidden md:flex w-[45%]  flex items-center relative`}>
+            {/* <video src={BloodCells} autoPlay loop muted className={`rounded-[9px] object-cover h-[100%]`}></video> */}
+            <Image  src={sherif_comp} objectFit="cover" objectPosition="center" fill="true" alt=""></Image>
+        </div>
         
 
 
@@ -30,7 +30,7 @@ const WakilOpening = () => {
         <p className={`flex text-[4.5vh] text-gold1 mt-[2vh] font-header`}>Dr. Sherif Wakil</p>
 
             <div className={`flex w-full h-[30vh] relative`}>
-            <Image  objectFit="cover" objectPosition="center" fill="true" alt="" src={sherif_hands}></Image>
+            <Image  objectFit="cover" objectPosition="center" fill="true" alt="" src={sherif_comp}></Image>
             </div>
             
             {/* <i className={`fa-solid fa-quote-right mr-[0.9vw] text-gold1 text-left text-[4vh] mt-[1vh]`}></i> */}
