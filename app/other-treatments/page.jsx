@@ -29,7 +29,7 @@ const OtherTreatments = () => {
               </div>
               <div className={`flex flex-col w-full  justify-center items-center mt-[10vh]`} >
                 <div className={`flex items-center justify-center w-full mb-[2vh]`}>
-                  <h1 className={`text-gold1 text-center text-[5vh] font-header`}>Find Out about other Treatments of Dr Sherif Wakil</h1>
+                  <h2 className={`text-gold1 text-center text-[5vh] font-header`}>Find Out about other Treatments of Dr Sherif Wakil</h2>
                 </div>
                   <OtherServices2/>
               </div>

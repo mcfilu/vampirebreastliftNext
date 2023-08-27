@@ -15,7 +15,7 @@ const ContactMap = () => {
        
         <div className={`hidden md:flex relative  w-[45%] flex flex-col  `}>
             <div className={`h-full flex flex-col justify-center items-center `}>
-              <h1 className={`text-gold1 text-[7vh] font-header pb-[1vh]`}>Contact Us</h1>
+              <h2 className={`text-gold1 text-[7vh] font-header pb-[1vh]`}>Contact Us</h2>
               <div className={`flex flex-col `}>
                 <div className={`mt-[2vh] font-main`}>
                   <p className="text-white font-main text-[2vh] mb-8"><a className={`hover:text-gold1 flex items-center`} href='mailto:info@drswclinics.co.uk'><i className="fas fa-envelope mr-4 text-gold1 text-[30px]"></i>Info@drswclinics.co.uk</a></p>
@@ -43,7 +43,7 @@ const ContactMap = () => {
 
         <div className={`md:hidden flex flex-col w-full items-center justify-center`}>
           <div className={`h-full w-full flex flex-col justify-center items-center `}>
-                <h1 className={`text-gold1 text-[6vh] font-header pb-[1vh]`}>Contact Us</h1>
+                <h2 className={`text-gold1 text-[6vh] font-header pb-[1vh]`}>Contact Us</h2>
                 <div className={`flex flex-col `}>
                   <div className={`mt-[2vh]`}>
                     <p className="text-white font-main text-[2vh] mb-8"><a className={`hover:text-gold1 flex items-center`} href='mailto:info@drswclinics.co.uk'><i className="fas fa-envelope mr-4 text-gold1 text-[30px]"></i>Info@drswclinics.co.uk</a></p>

@@ -33,8 +33,8 @@ const BookNow = () => {
 
             
                 {/* <div className={`   flex flex-col h-full justify-center items-left  p-[1vh] `}>
-                    <h1 className={`text-gold1 font-header mt-8 text-[6vh] text-center`}>Book a Consultation</h1>
-                    <h1 className={`text-gold1 font-main mt-8 text-[2.5vh] text-center w-9/12 mx-auto`}>To request a consultation with Dr Sherif Wakil MD FACS please complete this form.</h1>
+                    <h2 className={`text-gold1 font-header mt-8 text-[6vh] text-center`}>Book a Consultation</h2>
+                    <h2 className={`text-gold1 font-main mt-8 text-[2.5vh] text-center w-9/12 mx-auto`}>To request a consultation with Dr Sherif Wakil MD FACS please complete this form.</h2>
                 </div> */}
                 <Link href='/book-now'><button className={`md:w-[30vw] text-[4vh] p-[1vh] font-main bg-black border-gold1 border-4 text-gold1 hover:bg-white mt-[5vh] md:mt-[0px]`}>Book Now</button></Link>
             </div>

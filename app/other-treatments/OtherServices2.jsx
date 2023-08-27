@@ -21,8 +21,8 @@ const OtherServices2 = () => {
             <div  className={`relative flex w-full h-[40vh] overflow-hidden bg-black`}>
             <Image objectFit="cover" objectPosition="center" fill="true" alt="" className={`flex w-full h-full  ease-in-out duration-500 object-cover hover:scale-125 transition cursor-pointer`} src={pshot}></Image>
                 <div className={`absolute w-full top-[10vh] left-[2vw] `}>
-                    <h1 className={`text-gold1 text-[5.5vh] text-left font-header`}>The P-Shot</h1>
-                    <h1 className={` text-gold1 text-[5.5vh] text-left font-header`}>Penis PRP</h1>
+                    <h2 className={`text-gold1 text-[5.5vh] text-left font-header`}>The P-Shot</h2>
+                    <h2 className={` text-gold1 text-[5.5vh] text-left font-header`}>Penis PRP</h2>
                 </div>
             </div>
             
@@ -40,8 +40,8 @@ const OtherServices2 = () => {
         <div className={`relative flex w-full h-[40vh] overflow-hidden bg-black `}>
         <Image objectFit="cover" objectPosition="center" fill="true" alt="" className={`flex w-full h-full  ease-in-out duration-500 object-cover hover:scale-125 transition cursor-pointer`} src={oshot}></Image>
                 <div className={`absolute w-full top-[10vh] left-[2vw] `}>
-                    <h1 className={`text-gold2 text-[5.5vh] text-left font-header`}>The O-Shot</h1>
-                    <h1 className={` text-gold2 text-[5.5vh] text-left font-header`}>Vagina PRP</h1>
+                    <h2 className={`text-gold2 text-[5.5vh] text-left font-header`}>The O-Shot</h2>
+                    <h2 className={` text-gold2 text-[5.5vh] text-left font-header`}>Vagina PRP</h2>
                 </div>
             </div>
             <div className={`relative items-center flex flex-col w-full  py-[1vh] px-[2vh]`}>
@@ -59,8 +59,8 @@ const OtherServices2 = () => {
         <div className={`relative flex w-full h-[40vh] overflow-hidden bg-black`}>
         <Image objectFit="cover" objectPosition="center" fill="true" alt="" className={`flex w-full h-full  ease-in-out duration-500 object-cover hover:scale-125 transition cursor-pointer`} src={clinic2}></Image>
                 <div className={`absolute w-full top-[10vh] left-[2vw] `}>
-                    <h1 className={`text-gold2 text-[5.5vh] text-left font-header`}>Dr. SW</h1>
-                    <h1 className={` text-gold2 text-[5.5vh] text-left font-header`}>Clinics</h1>
+                    <h2 className={`text-gold2 text-[5.5vh] text-left font-header`}>Dr. SW</h2>
+                    <h2 className={` text-gold2 text-[5.5vh] text-left font-header`}>Clinics</h2>
                 </div>
             </div>
             <div className={` flex flex-col w-full  pt-[2vh] pb-[2.5vh] px-[1vh] md:px-[2vh]`}>

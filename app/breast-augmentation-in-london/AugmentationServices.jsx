@@ -25,8 +25,8 @@ const AugmentationServices = () => {
             <div  className={`relative flex w-full h-[40vh] overflow-hidden bg-black`}>
             <Image objectFit="cover" objectPosition="center" fill="true" alt="" className={`flex w-full h-full  ease-in-out duration-500 object-cover hover:scale-125 transition cursor-pointer`} src={boobs1}></Image>
                 <div className={`absolute w-full top-[10vh] left-[2vw] `}>
-                    <h1 className={`text-gold1 text-[5.5vh] text-left font-header`}>Vampire</h1>
-                    <h1 className={` text-gold1 text-[5.5vh] text-left font-header`}>BreastLift</h1>
+                    <h2 className={`text-gold1 text-[5.5vh] text-left font-header`}>Vampire</h2>
+                    <h2 className={` text-gold1 text-[5.5vh] text-left font-header`}>BreastLift</h2>
                 </div>
             </div>
             
@@ -45,8 +45,8 @@ const AugmentationServices = () => {
         <div className={`relative flex w-full h-[40vh] overflow-hidden bg-black `}>
         <Image objectFit="cover" objectPosition="center" fill="true" alt="" className={`flex w-full h-full  ease-in-out duration-500 object-cover hover:scale-125 transition cursor-pointer`} src={breast_fat2}></Image>
                 <div className={`absolute w-full top-[10vh] left-[2vw] `}>
-                    <h1 className={`text-gold2 text-[5.5vh] text-left font-header`}>Breast Fat</h1>
-                    <h1 className={` text-gold2 text-[5.5vh] text-left font-header`}>Enlargement</h1>
+                    <h2 className={`text-gold2 text-[5.5vh] text-left font-header`}>Breast Fat</h2>
+                    <h2 className={` text-gold2 text-[5.5vh] text-left font-header`}>Enlargement</h2>
                 </div>
             </div>
             <div className={`relative items-center flex flex-col w-full  py-[1vh] px-[2vh]`}>
@@ -65,8 +65,8 @@ const AugmentationServices = () => {
         <div className={`relative flex w-full h-[40vh] overflow-hidden bg-black`}>
         <Image objectFit="cover" objectPosition="center" fill="true" alt="" className={`flex w-full h-full  ease-in-out duration-500 object-cover hover:scale-125 transition cursor-pointer`} src={breast_reduction2}></Image>
                 <div className={`absolute w-full top-[10vh] left-[2vw] `}>
-                    <h1 className={`text-gold2 text-[5.5vh] text-left font-header`}>Breast</h1>
-                    <h1 className={` text-gold2 text-[5.5vh] text-left font-header`}>Reduction</h1>
+                    <h2 className={`text-gold2 text-[5.5vh] text-left font-header`}>Breast</h2>
+                    <h2 className={` text-gold2 text-[5.5vh] text-left font-header`}>Reduction</h2>
                 </div>
             </div>
             <div className={` flex flex-col w-full  pt-[2vh] pb-[2.5vh] px-[1vh] md:px-[2vh]`}>

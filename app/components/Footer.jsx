@@ -26,7 +26,7 @@ const Footer = () => {
         
         {/* Contact Information */}
         <div className="text-[0.9vw] flex flex-col items-center ">
-            <h1 className={`text-[4vh] text-gold1 md:text-[3vh] text-center md:text-left font-bold mb-[3vh] mt-[1.5vh] font-header`}>Contact Us</h1>
+            <h2 className={`text-[4vh] text-gold1 md:text-[3vh] text-center md:text-left font-bold mb-[3vh] mt-[1.5vh] font-header`}>Contact Us</h2>
           <p className="mb-[0.9vh] text-[2vh] md:text-[1.1vw] font-main"><a className={`hover:text-gold1 flex items-center`} href='mailto:info@drswclinics.co.uk'><i className="fas fa-envelope mr-[0.9vw] text-gold1 text-[3vh] md:text-[1.3vw]"></i>Info@drswclinics.co.uk</a></p>
           <p className="mb-[0.9vh] text-[2vh] md:text-[1.1vw] font-main"><a className={`hover:text-gold1 flex items-center`} href="tel:+44 (0)20 3006 8459"><i className="fas fa-phone mr-[0.9vw] text-gold1 text-[3vh] md:text-[1.3vw]"></i>+44 (0)20 3006 8459 </a></p>
           <Link href="/book-now"><button className={`bg-black border-gold1 border-2 hover:bg-white text-gold1 text-[3vh] md:text-[1.2vw] md:w-[8vw] font-main px-[1vh]`}>Book Now</button></Link>
@@ -34,7 +34,7 @@ const Footer = () => {
 
         {/* Find us */}
         <div className="text-[0.9vw] flex flex-col">
-            <h1 className={`text-[4vh] text-gold1 md:text-[3vh] text-center md:text-left font-bold mb-[3vh] mt-[1.5vh] font-header`}>Find Us</h1>
+            <h2 className={`text-[4vh] text-gold1 md:text-[3vh] text-center md:text-left font-bold mb-[3vh] mt-[1.5vh] font-header`}>Find Us</h2>
             <div className={`flex flex-row mx-auto `}>
                 <div className={`flex items-center`}>
                     <i className="fas fa-map-marker-alt text-gold1 text-[5vh] md:text-[1.8vw] mr-[0.6vw]"></i>
@@ -51,7 +51,7 @@ const Footer = () => {
 
         {/* Social Media Links */}
         <div className="text-[0.9vw] flex flex-col">
-            <h1 className={`text-[4vh] md:text-[3vh] text-gold1 text-center md:text-left font-bold mb-[3vh] mt-[1.5vh] font-header`}>Follow Us</h1>
+            <h2 className={`text-[4vh] md:text-[3vh] text-gold1 text-center md:text-left font-bold mb-[3vh] mt-[1.5vh] font-header`}>Follow Us</h2>
           <div className={`flex flex-row md:flex-col mx-auto text-[2vh] md:text-[1.1vw] font-main`}>
             <p className="mb-[0.9vh] mr-[1.5vh] md:mr-[0px]"><a href="https://www.facebook.com/drswclinics" className={`hover:text-gold1 flex items-center`}><i className={`fab fa-facebook mr-[0.9vw] text-gold1 text-[3vh] md:text-[1.3vw]`}></i>Facebook</a></p>
             <p className="mb-[0.9vh]  mr-[1.5vh] md:mr-[0px]"><a href="https://www.twitter.com/DrSWclinics" className={`hover:text-gold1 flex items-center`}><i className="fab fa-twitter mr-[0.9vw] text-gold1 text-[3vh] md:text-[1.3vw]"></i>Twitter</a></p>
@@ -62,7 +62,7 @@ const Footer = () => {
         
         {/* Other Useful Information */}
         <div className="text-[0.7vw] flex flex-col md:mr-[3vh] md:w-[20vw]">
-            <h1 className={`text-[4vh] md:text-[3vh] text-gold1 text-center md:text-left font-bold mb-[3vh] mt-[1.5vh] text-center font-header`}>Accredited</h1>
+            <h2 className={`text-[4vh] md:text-[3vh] text-gold1 text-center md:text-left font-bold mb-[3vh] mt-[1.5vh] text-center font-header`}>Accredited</h2>
             <div className={`grid grid-cols-2 md:grid-cols-4 place-items-center`}>
               <div className={`flex items-center justify-center w-full h-[8vh] m-[0.9vh] ml-0 relative`}>
                 <Image objectFit="contain" objectPosition="center" fill="true" alt="" src={footer1}></Image>
@@ -85,7 +85,7 @@ const Footer = () => {
         </div>
       </div>
       {/* <hr className={`mt-[2vh]`}></hr> */}
-      <h1 className={`text-center text-[1.5vh] mt-[1.5vh] font-main`}>Treatment Provided By Dr SW Clinics | All Right Reserved ®</h1>
+      <h2 className={`text-center text-[1.5vh] mt-[1.5vh] font-main`}>Treatment Provided By Dr SW Clinics | All Right Reserved ®</h2>
 
     </footer>
     

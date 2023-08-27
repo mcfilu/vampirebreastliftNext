@@ -12,7 +12,7 @@ const ReductionBenefits = () => {
             <Image objectFit="cover" objectPosition="center" fill="true" alt="" src={boobs10}></Image>
         </div>
         <div className={`hidden md:flex flex flex-col w-[55%] p-[2vh] items-center  `}>
-            <h1 className={`text-gold1 text-[5vh] text-center font-header`}>Breast Reduction Benefits</h1>
+            <h2 className={`text-gold1 text-[5vh] text-center font-header`}>Breast Reduction Benefits</h2>
             <p className={`text-white font-main text-[2.1vh] text-justify mt-[3vh] mb-[2vh]`}>
 Experience a transformation with Breast Reduction, a surgical procedure designed to alleviate physical discomfort and enhance your natural contours. This innovative technique reduces breast size, relieving the strain on your back, neck, and shoulders while improving your overall body proportions. Benefit from a shapelier, more balanced silhouette and a newfound sense of confidence as you embrace a more comfortable and harmonious lifestyle. Discover the positive effects of this procedure as reported by our satisfied clients:</p>
             <ul className={`w-full text-white text-[2.1vh] font-main items-left`}>
@@ -28,7 +28,7 @@ Experience a transformation with Breast Reduction, a surgical procedure designed
         
 
       <div className={`md:hidden flex flex-col items-center`}>
-      <h1 className={`text-gold1 text-[5vh] text-center font-header`}>Breast Reduction Benefits</h1>
+      <h2 className={`text-gold1 text-[5vh] text-center font-header`}>Breast Reduction Benefits</h2>
       {/* <video src={boobs10} autoPlay loop muted className={` object-cover h-[100%] w-[100%]`}></video> */}
       <div className={`flex w-full h-[30vh] relative`}> 
         <Image src={boobs10} objectFit="cover" objectPosition="center" fill="true" alt=""></Image>

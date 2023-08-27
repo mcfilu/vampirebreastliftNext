@@ -12,7 +12,7 @@ const FatBenefits = () => {
             <Image objectFit="cover" objectPosition="center" fill="true" alt="" src={boobs10}></Image>
         </div>
         <div className={`hidden md:flex flex flex-col w-[55%] p-[2vh]  items-center `}>
-            <h1 className={`text-gold1 text-[5vh] text-center font-header`}>Breast Fat Enlargement Benefits</h1>
+            <h2 className={`text-gold1 text-[5vh] text-center font-header`}>Breast Fat Enlargement Benefits</h2>
             <p className={`text-white font-main text-[2.1vh] text-justify mt-[3vh] mb-[2vh]`}>The goal of Breast Enlargement with Fat is to enhance the size and shape of the breasts using the patient's own fat. It promotes a natural-looking enlargement while also refining the overall silhouette of the body. According to client reports, benefits of the procedure include:</p>
             <ul className={`text-white text-[2.1vh] font-main w-full items-left `}>
                 <li className={`flex items-center mt-[1vh]`}><i class="" className={`text-gold1 mr-4 fa-solid fa-circle text-[1.6vh]`}></i>Naturally fuller, proportionate breasts</li>
@@ -27,7 +27,7 @@ const FatBenefits = () => {
         
 
       <div className={`md:hidden flex flex-col items-center`}>
-      <h1 className={`text-gold1 text-[5vh] text-center font-header`}>Breast Fat Enlargement Benefits</h1>
+      <h2 className={`text-gold1 text-[5vh] text-center font-header`}>Breast Fat Enlargement Benefits</h2>
       {/* <video src={boobs10} autoPlay loop muted className={` object-cover h-[100%] w-[100%]`}></video> */}
       <div className={`flex w-full h-[30vh] relative`}> 
         <Image src={boobs10} objectFit="cover" objectPosition="center" fill="true" alt=""></Image>

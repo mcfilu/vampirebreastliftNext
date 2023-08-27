@@ -42,7 +42,7 @@ useEffect(() => {
   return (
     <div className="flex flex-col   w-full   p-[2vh]  px-[4vh]">
       <div className="flex flex-col md:w-1/3 justify-center ">
-        <h1 className="text-gold1 text-[5vh] text-start md:text-left font-header ">As Seen On</h1>
+        <h2 className="text-gold1 text-[5vh] text-start md:text-left font-header ">As Seen On</h2>
         <p className="text-white text-start md:text-justify text-[2.1vh] font-main mt-[1vh]">Dr Sherif Wakil is regularly interviewed by the mainstream press as an expert in the subject of sexual health and well-being.</p>
       </div>
       <div className="md:w-full flex items-center justify-center mt-[2vh] ">

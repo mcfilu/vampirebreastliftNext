@@ -24,9 +24,9 @@ const FatTreated = () => {
                     <Image src={augmentation_icon2} objectFit="cover" objectPosition="center" fill="true" alt=""></Image>
                     </div>
                     
-                    <h1 className={`text-gold1 text-[4vh] text-center font-main md:mt-[2vh]`}>Size Increase</h1>
-                    {/* <h1 className={`text-gold1 text-[4vh] text-left font-main `}>Increase</h1> */}
-                    {/* <h1 className={` text-gold2 text-[5.5vh] text-left`}>Size</h1> */}
+                    <h2 className={`text-gold1 text-[4vh] text-center font-main md:mt-[2vh]`}>Size Increase</h2>
+                    {/* <h2 className={`text-gold1 text-[4vh] text-left font-main `}>Increase</h2> */}
+                    {/* <h2 className={` text-gold2 text-[5.5vh] text-left`}>Size</h2> */}
                 </div>
                 
         
@@ -40,8 +40,8 @@ const FatTreated = () => {
                     <Image src={aesthetic_icon} objectFit="cover" objectPosition="center" fill="true" alt=""></Image>
                     </div>
                     
-                    <h1 className={`text-gold1 text-[4vh] text-center font-main md:mt-[2vh]`}>Aesthetic Enhancement</h1>
-                    {/* <h1 className={` text-white text-[5.5vh] text-left`}>Texture</h1> */}
+                    <h2 className={`text-gold1 text-[4vh] text-center font-main md:mt-[2vh]`}>Aesthetic Enhancement</h2>
+                    {/* <h2 className={` text-white text-[5.5vh] text-left`}>Texture</h2> */}
                 </div>
                 
         
@@ -56,8 +56,8 @@ const FatTreated = () => {
                     <Image src={difference_icon} objectFit="cover" objectPosition="center" fill="true" alt=""></Image>
                     </div>
                     
-                    <h1 className={`text-gold1 text-[4vh] text-center font-main md:mt-[2vh]`}>Breast Shape</h1>
-                    {/* <h1 className={` text-gold2 text-[5.5vh] text-left`}>Rippling</h1> */}
+                    <h2 className={`text-gold1 text-[4vh] text-center font-main md:mt-[2vh]`}>Breast Shape</h2>
+                    {/* <h2 className={` text-gold2 text-[5.5vh] text-left`}>Rippling</h2> */}
                 </div>
                 
         

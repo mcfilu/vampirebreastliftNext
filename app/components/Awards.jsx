@@ -40,7 +40,7 @@ useEffect(() => {
     <div className={`flex flex-col   w-full  mx-auto  p-[2vh]  md:px-[4vh] `}>
         <div className={`md:w-1/3 flex flex-col justify-center  `}>
             <p className={`text-white text-[3vh]`}>Dr. SW Clinics</p>
-            <h1 className={`text-gold1 text-[5vh] font-header text-left md:text-left`}>An award winning clinic</h1>
+            <h2 className={`text-gold1 text-[5vh] font-header text-left md:text-left`}>An award winning clinic</h2>
             {/* <p className={`text-white text-[2.1vh] font-main mt-[3vh] text-left md:text-justify`}>This renowned clinic has gained a reputation for excellence, with numerous prestigious awards acknowledging its outstanding medical care and patient satisfaction.</p> */}
         </div>
         <div className={`md:w-full flex items-center justify-center mt-[2vh] relative`}>

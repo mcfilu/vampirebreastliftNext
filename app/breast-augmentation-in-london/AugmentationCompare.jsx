@@ -33,10 +33,10 @@ const AugmentationCompare = () => {
   return (
     <div className={` py-[2vh] w-full `}>
         <div className={`w-full flex flex-col justify-center items-center `}>
-            <h1 className={`text-gold1 font-header text-center text-[5vh] mb-[1vh]`}>Treatment Effects</h1>
+            <h2 className={`text-gold1 font-header text-center text-[5vh] mb-[1vh]`}>Treatment Effects</h2>
             <div className={`flex flex-row justify-between w-[50%] mx-auto`}>
-                <h1 className={`text-[3.5vh] font-main text-white`}>Before</h1>
-                <h1 className={`text-[3.5vh] font-main text-white`}>After</h1>
+                <h2 className={`text-[3.5vh] font-main text-white`}>Before</h2>
+                <h2 className={`text-[3.5vh] font-main text-white`}>After</h2>
             </div>
             <div onMouseEnter={() => setHov1(true)} onMouseLeave={() => {setHov1(false)}} className={`flex flex-row justify-between w-full h-[25vh] my-[1vh]`}>
                 <div className={`flex w-full h-full justify-between ${hov1 ? '' : 'hidden'} ease-in-out duration-500`}>

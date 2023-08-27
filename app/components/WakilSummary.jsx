@@ -9,7 +9,7 @@ function WakilSummary() {
     
         <div  className={` flex flex-col md:w-[60%] h-auto min-h-[35vh]  `}>
             <div className={`flex flex-col w-full h-full`}>
-                <h1 className={`text-gold1 text-[5vh] font-header text-center`}>Impressive Achievements by Dr Sherif Wakils</h1>
+                <h2 className={`text-gold1 text-[5vh] font-header text-center`}>Impressive Achievements by Dr Sherif Wakils</h2>
                 <div className={`flex flex-col md:flex-row justify-between px-[3vh] mt-[4vh] md:mt-[8vh]`}>
                     <div className="inner-item flex flex-col items-center text-white ">
                         <i  className={`text-gold1 fa-solid fa-hourglass text-[6vh]`}></i>
