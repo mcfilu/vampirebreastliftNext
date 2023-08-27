@@ -25,13 +25,13 @@ const AugmentationDetails = () => {
            
         </div>
         <div className={`hidden md:flex w-[45%] h-[100%] flex items-center`}>
-            <video src="/augmentation_vid.mp4" autoPlay loop muted className={` object-cover w-[100%] h-[100%]`}></video>
+            <video src="/augmentation_vid.webm" autoPlay loop muted className={` object-cover w-[100%] h-[100%]`}></video>
             {/* <img className={`w-full h-full object-cover`} src={sherif}></img> */}
         </div>
 
         <div className={`flex flex-col md:hidden items-center`}>
             <p className={`flex text-gold1 text-[6vh] text-center font-header`}>How does it work?</p>
-            <video src="/augmentation_vid.mp4" autoPlay loop muted playsInline className={` object-cover h-[100%]`}></video>
+            <video src="/augmentation_vid.webm" autoPlay loop muted playsInline className={` object-cover h-[100%]`}></video>
                 <p className={`flex text-white text-[2.2vh] mt-[5vh] ml-[1vh] font-main`}>Breast augmentation, also known as breast enlargement surgery, involves the use of breast implants to increase breast size and enhance shape. The implants are typically placed either under the breast tissue or under the chest muscle, utilizing silicone implants.</p>
                 <p className={`flex text-white text-[2.2vh] mt-[1.5vh] ml-[1vh] font-main`}>Referred to informally as a "boob job," breast implant surgery is a highly popular cosmetic procedure. However, it is seldom available through the NHS, except for medical cases such as severe asymmetry or breast malformation. If funded, breast enlargement is a more general option, but our surgeon can personalize the procedure to achieve your desired size and shape.</p>
                 <p className={`flex text-white text-[2.2vh] mt-[1.5vh] ml-[1vh] font-main`}>During the consultation, our surgeon will discuss various options regarding implant types, sizes, and shapes. Most implants are filled with soft or firm silicone gel, though saline alternatives are also available.</p>

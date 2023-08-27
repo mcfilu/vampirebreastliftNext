@@ -6,7 +6,7 @@ const ReductionImage = () => {
   return (
   
     <div className={`relative flex w-full h-screen`}>
-    <Image objectFit="cover" objectPosition="center" fill="true" alt="" src={reduction}></Image>
+    <Image objectFit="cover" objectPosition="center" fill="true" alt="" src={reduction} priority></Image>
     <div className={`absolute left-[1.5vw] top-[22%] md:w-[45%]`}>
     {/* <div className={`flex flex-col justify-center items-left h-screen w-[35%] ml-[3vh]`}> */}
     <h2 className={`text-gold1 text-[7vh] md:text-[8vh] font-header  mt-[3vh] text-left`}>Breast</h2>

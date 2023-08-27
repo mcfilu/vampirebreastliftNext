@@ -10,7 +10,7 @@ const FatDetails = () => {
         <div className={`hidden md:flex w-[55%] h-[100%]   flex flex-col items-left justify-between md:p-[2vh] pt-[0px] `}>
             <div className={`flex flex-col w-[100%]   items-center justify-center my-auto p-[1vh]`}>
 
-                <p className={`flex text-gold1 text-[6vh] text-center`}>How does it work?</p>
+                <p className={`flex text-gold1 text-[6vh] text-center font-header`}>How does it work?</p>
                 <p className={`flex text-white text-[2.2vh] mt-[5vh]`}>This method of breast augmentation does not use any artificial implants, but instead uses autologous fat from your own body. This procedure is therefore also called fat grafting, autologous fat transfer, and lipofilling to the breast.</p>
                 <p className={`flex text-white text-[2.2vh] mt-[1.5vh]`}>The procedure involves the initial harvesting of the fat cells using liposuction from the donor area(s); the suctioned fat is then processed to extract only the yellow fat cells into a syringe ready for re-injection, (this removes any other liquid or blood gathered as part of the liposuction procedure). The second procedure places the fat into the breast, the recipient area, through re-injection.</p>
                 <p className={`flex text-white text-[2.2vh] mt-[1.5vh]`}>The aim of the procedure is to naturally enhance the breast shape and augment the size, but without the need to place a silicone breast implant. Some women prefer the concept of a more natural result, using their own fat, which is a 100% natural product, rather than inserting an artificial implant.</p>
@@ -27,7 +27,7 @@ const FatDetails = () => {
         </div>
 
         <div className={`flex flex-col md:hidden items-center`}>
-            <p className={`flex text-gold1 text-[6vh] text-center`}>How does it work?</p>
+            <p className={`flex text-gold1 text-[6vh] text-center font-header`}>How does it work?</p>
             <video src="/fat_cells_mobile.mp4" autoPlay loop muted playsInline className={` object-cover h-[100%]`}></video>
                 <p className={`flex text-white text-[2.2vh] mt-[5vh] ml-[1vh]`}>This method of breast augmentation does not use any artificial implants, but instead uses autologous fat from your own body. This procedure is therefore also called fat grafting, autologous fat transfer, and lipofilling to the breast.</p>
                 <p className={`flex text-white text-[2.2vh] mt-[1.5vh] ml-[1vh]`}>The procedure involves the initial harvesting of the fat cells using liposuction from the donor area(s); the suctioned fat is then processed to extract only the yellow fat cells into a syringe ready for re-injection, (this removes any other liquid or blood gathered as part of the liposuction procedure). The second procedure places the fat into the breast, the recipient area, through re-injection.</p>

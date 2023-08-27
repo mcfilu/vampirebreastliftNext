@@ -5,7 +5,7 @@ import Image from 'next/image';
 const BreastliftImage = () => {
   return (
     <div className={`relative flex w-full h-screen`}>
-        <Image objectFit="cover" objectPosition="center" fill="true" alt="" src={boobs1} priority={true}></Image>
+        <Image objectFit="cover" objectPosition="center" fill="true" alt="" src={boobs1} priority></Image>
         {/* <img src={boobs1.src} alt="" className={`w-full h-full object-cover flex`}></img> */}
         <div className={`absolute left-[1.5vw] top-[22%] md:w-[45%]`}>
         {/* <div className={`flex flex-col justify-center items-left h-screen w-[35%] ml-[3vh]`}> */}

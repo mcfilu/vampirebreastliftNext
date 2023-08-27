@@ -23,13 +23,13 @@ const ReductionDetails = () => {
             
         </div>
         <div className={`hidden md:flex w-[45%] h-[100%] flex items-center`}>
-            <video src="/augmentation_vid.mp4" autoPlay loop muted className={` object-cover w-[100%] h-[100%]`}></video>
+            <video src="/augmentation_vid.webm" autoPlay loop muted className={` object-cover w-[100%] h-[100%]`}></video>
             {/* <img className={`w-full h-full object-cover`} src={sherif}></img> */}
         </div>
 
         <div className={`flex flex-col md:hidden items-center`}>
             <p className={`flex text-gold1 text-[6vh] text-center font-header`}>How does it work?</p>
-            <video src="/augmentation_vid.mp4" autoPlay loop muted playsInline className={` object-cover h-[100%]`}></video>
+            <video src="/augmentation_vid.webm" autoPlay loop muted playsInline className={` object-cover h-[100%]`}></video>
                 <p className={`flex text-white text-[2.2vh] mt-[5vh] ml-[1vh] font-main`}>Breast reduction surgery, also known as reduction mammoplasty, is a surgical procedure designed to decrease the size of the breasts and improve their shape and proportions.</p>
                 <p className={`flex text-white text-[2.2vh] mt-[1.5vh] ml-[1vh] font-main`}>During breast reduction surgery, excess breast tissue, fat, and skin are removed to achieve the desired breast size and shape. The surgeon will carefully reshape the remaining breast tissue and reposition the nipple to create a natural and aesthetically pleasing result.</p>
                 <p className={`flex text-white text-[2.2vh] mt-[1.5vh] ml-[1vh] font-main`}>Breast reduction surgery is typically performed to address physical discomfort and improve quality of life, it can also have significant aesthetic benefits. Our experienced surgeon can discuss your specific goals and concerns, tailoring the procedure to give you the size and shape that best suits your desires and enhances your overall well-being.</p>

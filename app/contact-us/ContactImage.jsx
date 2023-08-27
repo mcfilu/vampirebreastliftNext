@@ -6,7 +6,7 @@ import Image from 'next/image';
 const ContactImage = () => {
   return (
     <div className={`flex w-full h-screen relative`}>
-        <Image objectFit="cover" objectPosition="center" fill="true" alt="" src={clinic_bg.src}></Image>
+        <Image objectFit="cover" objectPosition="center" fill="true" alt="" src={clinic_bg.src} priority></Image>
         <div className={`absolute left-[1.5vw] top-[35%] md:top-[30%] md:w-[45%]`}>
         {/* <div className={`flex flex-col justify-center items-left h-screen w-[35%] ml-[3vh]`}> */}
                     {/* <h1 className={`text-gold1 text-[8vh] font-header mb-[3vh] mt-20 text-left`}>Vampire Breast Lift™ </h1> */}
