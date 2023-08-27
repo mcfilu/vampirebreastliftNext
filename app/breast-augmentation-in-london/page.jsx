@@ -42,24 +42,25 @@ const Augmentation = () => {
         </div>
         <div className="flex flex-col bg-black" >
         <div className={`flex flex-col justify-center mx-auto w-full`}>
-              {/* <div className={`flex  w-full  justify-center mt-20`}>
+              <div className={`flex  w-full  justify-center mt-20`}>
                 <AugmentationOpening/>
-              </div> */}
+              </div>
+              <div className={`flex  w-full  items-center justify-center mt-[7vh]`}>
+                  <WakilSummary/>
+              </div>
               <div className={`flex  w-full  justify-center  mt-[7vh]`}>
                 <AugmentationDetails/>
               </div>
               <div className={`flex  w-full  items-center mt-[7vh]`}>
                   <AugmentationBenefits/>
               </div>
-              <div className={`flex  w-full  items-center justify-center mt-[7vh]`}>
-                  <WakilSummary/>
+              <div className={`flex  w-full  items-center mt-[7vh] `}>
+                  <AugmentationTreated/>
               </div>
               <div className={`flex  w-full  items-center  justify-center mt-[7vh]`}>
                   <AugmentationVideo/>
               </div>
-              <div className={`flex  w-full  items-center mt-[7vh] `}>
-                  <AugmentationTreated/>
-              </div>
+              
               <div className={`flex  w-full items-center mt-[7vh]`}>
                   <AugmentationSummary/>
               </div>

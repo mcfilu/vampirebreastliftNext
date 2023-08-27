@@ -44,9 +44,12 @@ const Reduction = () => {
         </div>
         <div className="flex flex-col bg-black" >
         <div className={`flex flex-col justify-center mx-auto w-full`}>
-              {/* <div className={`flex  w-full  justify-center mt-20`}>
+              <div className={`flex  w-full  justify-center mt-20`}>
                 <ReductionOpening/>
-              </div> */}
+              </div>
+              <div className={`flex  w-full  items-center justify-center mt-[7vh]`}>
+                  <WakilSummary/>
+              </div>
               <div className={`flex  w-full  justify-center  mt-[7vh]`}>
                 <ReductionDetails/>
               </div>
@@ -56,9 +59,7 @@ const Reduction = () => {
               <div className={`flex  w-full  items-center mt-[7vh] `}>
                   <ReductionTreated/>
               </div>
-              <div className={`flex  w-full  items-center justify-center mt-[7vh]`}>
-                  <WakilSummary/>
-              </div>
+              
               <div className={`flex  w-full  items-center  justify-center mt-[7vh]`}>
                   <ReductionVideo/>
               </div>

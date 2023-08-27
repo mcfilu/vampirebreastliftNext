@@ -257,6 +257,7 @@ const BreastliftCompare = () => {
 
             <div onMouseEnter={() => setHov8(true)} onMouseLeave={() => {setHov8(false)}} className={`${vis8 ? '' : 'hidden'} flex flex-row justify-between w-full h-[25vh] my-[1vh]`}>
                 <div className={`flex w-full h-full justify-between ${hov8 ? '' : 'hidden'} ease-in-out duration-500`}>
+                    <div className={`flex w-full md:w-[50%] mx-auto h-full justify-center`}>
                         <ReactCompareSlider
                             itemOne={<div className={`flex w-[80vw] md:w-[20vw] h-[25vh] relative`}>
                                         <Image objectFit="cover" objectPosition="center" fill="true" alt="" src={breastlift_before13}></Image>
@@ -265,7 +266,7 @@ const BreastliftCompare = () => {
                                         <Image objectFit="cover" objectPosition="center" fill="true" alt="" src={breastlift_after13}></Image>
                                     </div>}  
                         />
-                    
+                    </div>
                 </div>
                 <div className={`flex w-full h-full justify-between md:justify-center ${hov8 ? 'hidden' : ''} ease-in-out duration-500`}>
                 <div className={`mr-[1vh] md:mr-[3vh] w-[48%] md:w-[43%] object-cover relative`}>

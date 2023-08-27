@@ -191,7 +191,7 @@ const FatCompare = () => {
                     
                 </div>
                 <div className={`flex w-full h-full justify-between md:justify-center ${hov7 ? 'hidden' : ''} ease-in-out duration-500`}>
-                    <div className={`ml-[3vh] w-[47%] md:w-[43%] object-cover relative`}>
+                    <div className={`mr-[3vh] w-[47%] md:w-[43%] object-cover relative`}>
                         <Image objectFit="cover" objectPosition="center" fill="true" alt="" src={fat_before12}></Image>
                     </div>
                     <div className={`h-full w-[0.2vh] bg-gold1`}></div>

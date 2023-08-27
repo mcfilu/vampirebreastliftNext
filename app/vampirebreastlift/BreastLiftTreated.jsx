@@ -21,7 +21,7 @@ const BreastLiftTreated = () => {
     
         <div className={`flex flex-col bg-black justify-center items-center`}>
             <div className={`flex h-[15vh] w-[25vw] md:w-[10vw] relative`}>
-            <Image src={augmentation_icon2} objectFit="cover" objectPosition="center" fill="true" alt=""></Image>
+            <Image src={augmentation_icon2} objectFit="contain" objectPosition="center" fill="true" alt=""></Image>
             </div>
             
             <h2 className={`text-gold1 text-[4vh] text-center font-main md:mt-[2vh]`}>Size Increase</h2>
@@ -37,7 +37,7 @@ const BreastLiftTreated = () => {
     
         <div className={`flex flex-col bg-black justify-center items-center`}>
             <div className={`flex h-[15vh]  w-[25vw] md:w-[10vw] relative`}>
-            <Image src={skin_icon} objectFit="cover" objectPosition="center" fill="true" alt=""></Image>
+            <Image src={skin_icon} objectFit="contain" objectPosition="center" fill="true" alt=""></Image>
             </div>
             
             <h2 className={`text-gold1 text-[4vh] text-center font-main md:mt-[2vh]`}>Skin Texture</h2>
@@ -53,7 +53,7 @@ const BreastLiftTreated = () => {
     
         <div className={`flex flex-col bg-black justify-center items-center`}>
             <div className={`flex h-[15vh]  w-[25vw] md:w-[10vw] relative`}>
-            <Image src={breast_icon} objectFit="cover" objectPosition="center" fill="true" alt=""></Image>
+            <Image src={breast_icon} objectFit="contain" objectPosition="center" fill="true" alt=""></Image>
             </div>
             
             <h2 className={`text-gold1 text-[4vh] text-center font-main md:mt-[2vh]`}>Implant Rippling</h2>

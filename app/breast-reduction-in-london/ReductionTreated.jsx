@@ -21,7 +21,7 @@ const ReductionTreated = () => {
             
                 <div className={`flex flex-col bg-black justify-center items-center`}>
                     <div className={`flex h-[15vh] w-[25vw] md:w-[10vw] relative`}>
-                    <Image src={reduction_icon} objectFit="cover" objectPosition="center" fill="true" alt=""></Image>
+                    <Image src={reduction_icon} objectFit="contain" objectPosition="center" fill="true" alt=""></Image>
                     </div>
                     
                     <h2 className={`text-gold1 text-[4vh] text-center font-main md:mt-[2vh]`}>Size Reduction</h2>
@@ -37,7 +37,7 @@ const ReductionTreated = () => {
             
                 <div className={`flex flex-col bg-black justify-center items-center`}>
                     <div className={`flex h-[15vh]  w-[25vw] md:w-[10vw] relative`}>
-                    <Image src={weight_icon} objectFit="cover" objectPosition="center" fill="true" alt=""></Image>
+                    <Image src={weight_icon} objectFit="contain" objectPosition="center" fill="true" alt=""></Image>
                     </div>
                     
                     <h2 className={`text-gold1 text-[4vh] text-center font-main md:mt-[2vh]`}>Physical Discomfort</h2>
@@ -53,7 +53,7 @@ const ReductionTreated = () => {
             
                 <div className={`flex flex-col bg-black justify-center items-center`}>
                     <div className={`flex h-[15vh] w-[25vw] md:w-[10vw] relative`}>
-                    <Image src={difference_icon} objectFit="cover" objectPosition="center" fill="true" alt=""></Image>
+                    <Image src={difference_icon} objectFit="contain" objectPosition="center" fill="true" alt=""></Image>
                     </div>
                     
                     <h2 className={`text-gold1 text-[4vh] text-center font-main md:mt-[2vh]`}>Breast Shape</h2>
