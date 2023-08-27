@@ -20,7 +20,7 @@ function FatSummary() {
                         </div>
                         <p className="text-[1.9vh] font-light font-main">Procedure Time</p>
                         {/* <span className="text-[2vh] font-light">Approx 40mins</span> */}
-                        <h4 className="text-[2.5vh] font-medium mt-[1vh] font-main">Up to 4 hours</h4>
+                        <p className="text-[2.5vh] font-medium mt-[1vh] font-main">Up to 4 hours</p>
                         
                     </div>
 
@@ -30,7 +30,7 @@ function FatSummary() {
                         </div>
                         <p className="text-[1.9vh] font-light font-main">Recommended No. of Treatments</p>
                         {/* <span className="text-[2vh] font-light"></span> */}
-                        <h4 className="text-[2.5vh] font-medium mt-[1vh] font-main">One-Two</h4>
+                        <p className="text-[2.5vh] font-medium mt-[1vh] font-main">One-Two</p>
                         
                     </div>
 
@@ -40,7 +40,7 @@ function FatSummary() {
                         </div>
                         <p className="text-[1.9vh] font-light font-main">Anaesthetic</p>
                         {/* <span className="text-[2vh] font-light"></span> */}
-                        <h4 className="text-[2.5vh] font-medium mt-[1vh] font-main">General</h4>
+                        <p className="text-[2.5vh] font-medium mt-[1vh] font-main">General</p>
                         
                     </div>
                 </div>
@@ -85,9 +85,9 @@ function FatSummary() {
                 
             </div>
             <div className={`md:absolute bg-gold1  bg-opacity-100  shadow-[0px_0px_20px_2px_#ad9444] ease-in-out duration-500 top-[22%] -right-[17.5vw] md:w-[24vw]   p-[2vh] mt-[5vh] md:mt-[0px]`}>
-                    <h2 className={` text-[4vh] mt-[2vh] font-medium font-header text-black`}>Treatment Cost</h2>
+                    <p className={` text-[4vh] mt-[2vh] font-medium font-header text-black`}>Treatment Cost</p>
                     <p className={`font-main text-[1.7vh] mt-[2vh]  text-black`}>Price from:</p>
-                    <h2 className={`font-main font-bold text-[5.5vh] text-black`}>£ TBA</h2>
+                    <p className={`font-main font-bold text-[5.5vh] text-black`}>£ TBA</p>
                     <p className={`text-[1.6vh] font-main text-black`}>* After consultation the doctor will confirm the cost.</p>
                     <Link href="/book-now"><button className={`bg-black text-gold1 text-[4vh] md:text-[2.5vh] mt-[4vh] p-[1vh]`}>Book Now</button></Link>
                 </div>

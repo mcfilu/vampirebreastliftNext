@@ -57,7 +57,7 @@ const YoutubeTestimonials = () => {
   
     <div className={`flex flex-col p-[2vh]  w-full `}>
       
-        <h2 className={`text-gold1 text-[5vh] font-header text-center`}>Patients Testimonials</h2>
+        <p className={`text-gold1 text-[5vh] font-header text-center`}>Patients Testimonials</p>
         
       <div className=" w-[95%] mx-auto my-auto overflow-hidden ">
       <Slider {...settings}>
@@ -74,8 +74,8 @@ const YoutubeTestimonials = () => {
               <div className={`flex flex-col items-center w-[100%] h-[48%] mt-[2vh]`}>
                 <i className={`fa-solid fa-quote-right mr-[0.9vw] text-gold1 text-[2vh] md:text-[1.3vw]`}></i>
                 <p className={`text-white text-center text-[1.9vh] font-main`}>I had my breast implants removed a year ago, and my condfidence just went with them. I didnt want to have surgery so I looked into alternate procedures and met Dr. Wakil. I am so happy with the results, I feel so confident now, it just makes me feel more of a woman again.</p>
-                <h2 className={`text-gold1 text-[3vh] text-center mt-[2vh] font-header`}>MAYA</h2>
-                <h3 className={`text-white text-[1.9vh] text-center font-main`}>42 Years Old, UK</h3>
+                <p className={`text-gold1 text-[3vh] text-center mt-[2vh] font-header`}>MAYA</p>
+                <p className={`text-white text-[1.9vh] text-center font-main`}>42 Years Old, UK</p>
               </div>
             </div>
           </div>
@@ -95,8 +95,8 @@ const YoutubeTestimonials = () => {
               <div className={`flex flex-col items-center w-[100%] h-[48%] mt-[2vh]`}>
                 <i className={`fa-solid fa-quote-right mr-[0.9vw] text-gold1 text-[2vh] md:text-[1.3vw]`}></i>
                 <p className={`text-white text-center text-[1.9vh] font-main`}>In the past I had breast implants, but after breastfeeding they didnt look good. I researched some other options and came across Dr. Wakil. I didnt feel any pain at all and was able to just walk away from the treatment as normal. Im really please with the results, especially with the lift and the shape. Thats excatly what I wanted.</p>
-                <h2 className={`text-gold1 text-[3vh] text-center mt-[2vh] font-header`}>CLAUDIA</h2>
-                <h3 className={`text-white text-[1.9vh] text-center font-main`}>28 Years Old, BRISTOL</h3>
+                <p className={`text-gold1 text-[3vh] text-center mt-[2vh] font-header`}>CLAUDIA</p>
+                <p className={`text-white text-[1.9vh] text-center font-main`}>28 Years Old, BRISTOL</p>
               </div>
             </div>
           </div>
@@ -114,8 +114,8 @@ const YoutubeTestimonials = () => {
               <div className={`flex flex-col items-center w-[100%] h-[48%] mt-[2vh]`}>
                 <i className={`fa-solid fa-quote-right mr-[0.9vw] text-gold1 text-[2vh] md:text-[1.3vw]`}></i>
                 <p className={`text-white text-center text-[1.9vh] font-main`}>Several years ago I had breast surgery which left me with some nerve damage on one side. Dr. Sherif introduced to me Vampire BreastLift, I tolerated it very well, it was not painfull at all. After 2 months from the precudeure I started to get the sensation back again and now its complemetely back. Its just been amazinng and Im so thankfull to Dr. Sherif. </p>
-                <h2 className={`text-gold1 text-[3vh] text-center mt-[2vh] font-header`}>CHRISTINE</h2>
-                <h3 className={`text-white text-[1.9vh] text-center font-main`}>60 Years Old, UK</h3>
+                <p className={`text-gold1 text-[3vh] text-center mt-[2vh] font-header`}>CHRISTINE</p>
+                <p className={`text-white text-[1.9vh] text-center font-main`}>60 Years Old, UK</p>
               </div>
             </div>
           </div>
@@ -133,8 +133,8 @@ const YoutubeTestimonials = () => {
               <div className={`flex flex-col items-center w-[100%] h-[48%] mt-[2vh]`}>
                 <i className={`fa-solid fa-quote-right mr-[0.9vw] text-gold1 text-[2vh] md:text-[1.3vw]`}></i>
                 <p className={`text-white text-center text-[1.9vh] font-main`}>I always wanted to do something with my breast but didnt want to go down the road with plastic surgery I'm acutally thrilled that this gives me the results I wanted. This is non-invasive and it's something that gives me the natural results I wanted so much.</p>
-                <h2 className={`text-gold1 text-[3vh] text-center mt-[2vh] font-header`}>HIMA</h2>
-                <h3 className={`text-white text-[1.9vh] text-center font-main`}>39 Years Old, UK</h3>
+                <p className={`text-gold1 text-[3vh] text-center mt-[2vh] font-header`}>HIMA</p>
+                <p className={`text-white text-[1.9vh] text-center font-main`}>39 Years Old, UK</p>
               </div>
             </div>
           </div>
