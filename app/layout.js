@@ -17,9 +17,10 @@ export const metadata = {
     template: '%s',
   },
   verification: {
-    google: 'dE8d1IOgigByryuM5ThT-GCO5_zTNWonA4bNGOGX8ks',
+    google: 'zp1pkX8868abC_dJ0eQGfuQlPNgcpOMdWUovBrFVILI',
   },
 }
+
 
 export default function RootLayout({ children }) {
   return (
