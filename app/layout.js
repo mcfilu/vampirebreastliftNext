@@ -30,7 +30,7 @@ export default function RootLayout({ children }) {
           <GoogleAnalytics/>
         </Suspense>
         <Suspense fallback={<></>}>
-          <GoogleTagManager id="G-XXKZYD5CRB" />
+          <GoogleTagManager id="GTM-MN4QV5Z4" />
         </Suspense>
         
         
