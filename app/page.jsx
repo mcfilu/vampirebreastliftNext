@@ -63,9 +63,9 @@ const VampireBreastLift = () => {
                   <BreastLiftTreated/>
               </div>
              
-              <div className={`flex  w-full  items-center  justify-center mt-[7vh]`}>
+              {/* <div className={`flex  w-full  items-center  justify-center mt-[7vh]`}>
                   <BreastLiftVideo/>
-              </div>
+              </div> */}
               
               <div className={`flex  w-full bg-black  items-center mt-[7vh]`}>
                   <BreastLiftSummary/>

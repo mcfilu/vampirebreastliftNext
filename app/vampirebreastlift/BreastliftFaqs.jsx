@@ -28,7 +28,7 @@ const BreastliftFaqs = () => {
                     </div>
                     <div className={`flex ${openSecond ? '' : 'hidden'} md:w-[40vw] mt-[2vh] mb-[1vh] ml-[5%]`}>
                         <p className={`text-white text-[2.1vh] text-justify font-main`}>
-                        The Vampire Breast Lift™ is ideal for women who do not want to have the recovery time associated with traditional surgical procedures such as breast lifts or breast implants or who want a more subtle, natural enhancement of the breasts. It can be used to address loss of volume and sagging in the breasts due to ageing, weight loss or breast feeding, to improve skin texture on the chest and to target creased skin on the cleavage. It can also be used to correct inverted nipples.
+                        The Vampire Breast Lift™ is ideal for women who do not want to have the recovery time associated with traditional surgical procedures such as breast lifts or breast implants or who want a more subtle, natural enhancement of the breasts. The PRP breast enhancement can be used to address loss of volume and sagging in the breasts due to ageing, weight loss or breast feeding, to improve skin texture on the chest and to target creased skin on the cleavage. It can also be used to correct inverted nipples.
                         </p>
                     </div>
                 </div>
@@ -40,7 +40,7 @@ const BreastliftFaqs = () => {
                     </div>
                     <div className={`flex ${openThird ? '' : 'hidden'} md:w-[40vw] mt-[2vh] mb-[1vh] ml-[5%]`}>
                         <p className={`text-white text-[2.1vh] text-justify font-main`}>
-                        The treatment does involve injections so it can be a little uncomfortable but local anaesthetic is used to minimise any discomfort and most patients find the treatment very tolerable with many experiencing no pain at all.
+                        This natural breast lift treatment does involve injections so it can be a little uncomfortable but local anaesthetic is used to minimise any discomfort and most patients find the treatment very tolerable with many experiencing no pain at all.
                         </p>
                     </div>
                 </div>
