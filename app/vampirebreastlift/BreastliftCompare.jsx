@@ -75,14 +75,33 @@ const BreastliftCompare = () => {
          
     
     }
+
+    const [banner, setBanner] = useState(true);
+    const [disabled, setDisabled] = useState(false)
   return (
     <div className={` py-[2vh] w-full `}>
         <div className={`w-full flex flex-col justify-center items-center `}>
             <h2 className={`text-gold1  text-center text-[5vh] mb-[1vh] font-header`}>Treatment Effects</h2>
-            <div className={`flex flex-row justify-between w-[50%] mx-auto`}>
+            <div className={`${banner ? 'hidden' : ''} flex flex-row justify-between w-[50%] mx-auto`}>
                 <h2 className={`text-[3.5vh] text-white font-main`}>Before</h2>
                 <h2 className={`text-[3.5vh] text-white font-main`}>After</h2>
             </div>
+            <div className={`${banner ? '' : 'hidden'} flex flex-col w-[90%] h-[60vh] md:h[80vh] bg-gold2 items-center justify-center text-white`}>
+                <div className={`${disabled ? 'hidden' : ''}`}>
+                    <p className=' text-[2.5vh] my-[1vh] text-center'>Sensitive Content</p>
+                    <p className=' text-[2.5vh] my-[1vh] text-center'>These photos contain nudity. You must be at least 18 years old to continue.</p>
+                    <p className=' text-[2.5vh] my-[1vh] text-center'>Are you over 18 years of age?</p>
+                    <div className='flex flex-row items-center justify-center mt-[5vh]'>
+                        <button onClick={() => {setDisabled(true)}} className='py-[1vh] px-[2vh] border-black border-2 mr-[1vw]'>NO</button>
+                        <button onClick={() => setBanner(false)} className='text-gold2 bg-black py-[1vh] px-[2vh] border-black border-2 ml-[1vw]'>YES</button>
+                    </div>
+                </div>
+                <div className={`${disabled ? '' : 'hidden'} flex flex-col items-center justify-center text-white`}>
+                    <p className=' text-[2.5vh] my-[1vh] text-center'>Due to your age</p>
+                    <p className=' text-[2.5vh] my-[1vh] text-center'>Unfortunately we can't show you the sensitive content.</p>
+                </div>
+            </div>
+            <div className={`${banner ? 'hidden' : ''} w-full`}>
             <div onMouseEnter={() => setHov1(true)} onMouseLeave={() => {setHov1(false)}} className={`flex flex-row justify-between w-full h-[25vh] my-[1vh]`}>
                 <div className={`flex w-full h-full justify-between  ${hov1 ? '' : 'hidden'} ease-in-out duration-500`}>
                     <div className={`flex w-full md:w-[50%] mx-auto h-full justify-center`}>
@@ -328,7 +347,8 @@ const BreastliftCompare = () => {
                     </div>
                 </div>
             </div>
-            <button onClick={() => handleImages()} className={`flex mx-auto px-[1vh] py-[0.5vh] bg-black border-gold1 border-2 text-gold1 text-[2.5vh]  ${buttonVis ? "":"hidden"} mt-[1vh] font-main`}>Load More</button>
+            </div>
+            <button onClick={() => handleImages()} className={`${banner ? 'hidden' : ''} flex mx-auto px-[1vh] py-[0.5vh] bg-black border-gold1 border-2 text-gold1 text-[2.5vh]  ${buttonVis ? "":"hidden"} mt-[1vh] font-main`}>Load More</button>
         </div>
     </div>
     
