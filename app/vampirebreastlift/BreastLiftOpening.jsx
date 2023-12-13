@@ -13,7 +13,7 @@ const BreastLiftOpening = () => {
         <div className={`hidden md:flex w-[55%] h-[100%]  p-[2vh] flex flex-col items-left justify-between `}>
             <div className={` flex flex-col w-[100%]  bg-opacity-40  items-center justify-center my-auto`}>
             <i className={`fa-solid fa-quote-right mr-[0.9vw] text-gold1 text-center text-[1.3vw]`}></i>
-                <p className={`flex text-white text-[2.5vh] text-left text-gold1 mt-[2vh] font-main`}>Discover the extraordinary Vampire Breast Lift™, an innovative and pioneering breakthrough in non-surgical breast enhancements. This exceptional procedure harnesses the power of your body's own growth factors to delicately enhance and revitalize the breasts, gracefully improving their shape and volume without resorting to conventional surgery or implants. </p>
+                <p className={`flex text-white text-[2.5vh] text-left text-gold1 mt-[2vh] font-main`}>Discover the extraordinary Vampire Breast Lift™ UK – also known as a non surgical boob job and PRP breast lift – is an innovative and pioneering breakthrough in non-surgical breast enhancements. This exceptional procedure harnesses the power of your body's own growth factors to delicately enhance and revitalise the breasts, gracefully improving their shape and volume without resorting to conventional surgery or implants.</p>
                 <i className={`fa-solid fa-quote-right mr-[0.9vw] text-center text-gold1 text-[5vh] md:text-[1.3vw] mt-[2vh]`}></i>
                 <p className={`flex  text-[4.5vh] text-center font-header text-gold1 mt-[5vh]`}>Dr. Sherif Wakil</p>
             </div>
@@ -42,7 +42,7 @@ const BreastLiftOpening = () => {
             </div>
             
             <i className={`fa-solid fa-quote-right mr-[0.9vw] text-gold1 text-center text-[4vh] mt-[1vh]`}></i>
-            <p className={`flex text-white text-[2.2vh] text-left ml-[1vh] text-gold1 `}>The Vampire Breast Lift™ represents an exciting and groundbreaking innovation in the realm of non-surgical breast enhancements. This procedure, as intriguing as its name implies, utilizes your body's natural growth factors to subtly augment and rejuvenate the appearance of the breasts, improving their shape and volume without the need for traditional surgery or implants.</p>
+            <p className={`flex text-white text-[2.2vh] text-left ml-[1vh] text-gold1 `}>Discover the extraordinary Vampire Breast Lift™ UK – also known as a non surgical boob job and PRP breast lift – is an innovative and pioneering breakthrough in non-surgical breast enhancements. This exceptional procedure harnesses the power of your body's own growth factors to delicately enhance and revitalise the breasts, gracefully improving their shape and volume without resorting to conventional surgery or implants.</p>
             <i className={`fa-solid fa-quote-right mr-[0.9vw] text-center text-gold1 text-[4vh] `}></i>
             
             

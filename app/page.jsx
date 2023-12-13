@@ -24,8 +24,8 @@ import BreastliftCompare from './vampirebreastlift/BreastliftCompare'
 const BreastLiftDetails = dynamic(() => import('./vampirebreastlift/BreastLiftDetails'))
 
 export const metadata = {
-  title: 'Non Surgical Breast Lift in London | Vampire Breast Lift',
-  description : "Get the best non-surgical breast lift in London at Vampire Breast Lift by Dr. Sherif Wakil. Call us at +44 (0)20 3006 8459 for a lift you'll love.!",
+  title: 'Vampire Breast Lift™ | Non Surgical Breast Lift UK | PRP Breast Lift',
+  description : "Get the best non-surgical breast lift in London, UK with the Vampire Breast Lift by Dr. Sherif Wakil. Call us at +44 (0)20 3006 8459 for a natural breast lift",
 }
 
 const VampireBreastLift = () => {
