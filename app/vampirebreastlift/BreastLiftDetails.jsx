@@ -27,12 +27,13 @@ const BreastLiftDetails = () => {
         <div className={`hidden md:flex w-[55%] h-[100%]   flex flex-col items-left justify-between md:p-[2vh] pt-[0px] `}>
             <div className={`flex flex-col w-[100%]   items-center justify-center my-auto p-[1vh]`}>
 
-                <p className={`flex text-gold1 text-[5vh] text-center font-header`}>How does it work?</p>
-                <p className={`flex text-white text-[2.2vh] mt-[5vh] font-main`}>Through utilizing regenerative growth factors derived from your own blood, the non-surgical breast lift offers a remarkable solution to enhance cleavage and restore lost volume in the upper breast area, achieving a more pronounced and captivating appearance.</p>
+                <p className={`flex text-gold1 text-[5vh] text-center font-header`}>How does the Vampire Breast Lift™ work?</p>
+                <p className={`flex text-white text-[2.2vh] mt-[5vh] font-main`}>Through utilising regenerative growth factors derived from your own blood, our UK non-surgical breast lift offers a remarkable solution to enhance cleavage and restore lost volume in the upper breast area, achieving a more pronounced and captivating appearance.</p>
                 <p className={`flex text-white text-[2.2vh] mt-[1.5vh] font-main`}>Vampire Treatments, also known as PRP or Platelet Rich Plasma Rejuvenation, have garnered significant attention as one of the most sought-after rejuvenation procedures in recent years. Harnessing the body's innate healing and regenerative capabilities, this groundbreaking technique effectively combats facial aging while lifting and enhancing the breasts, earning acclaim among celebrities.</p>
                 <p className={`flex text-white text-[2.2vh] mt-[1.5vh] font-main`}>As the sole UK doctor and the exclusive European practitioner certified by the inventor of Vampire treatments, and listed on the official Vampire Facelift™ website, Dr. Wakil stands as a leading authority in this pioneering methodology.</p>
-                <p className={`flex text-white text-[2.2vh] mt-[1.5vh] font-main`}>The procedure involves obtaining a small blood sample, which is then processed in a centrifuge to extract Platelet Rich Plasma (PRP). This concentrated plasma, abundant in growth factors that facilitate rejuvenation and regeneration, is skillfully injected into the targeted area, specifically the breasts in this case.</p>
-                <p className={`flex text-white text-[2.2vh] mt-[1.5vh] font-main`}>The PRP contains a large concentration of growth factors, crucial cells responsible for revitalization and renewal in our bodies, making it a potent and natural approach to rejuvenation.</p>
+                <p className={`flex text-white text-[2.2vh] mt-[1.5vh] font-main`}>The procedure involves obtaining a small blood sample, which is then processed in a centrifuge to extract Platelet Rich Plasma (PRP). This concentrated plasma, abundant in growth factors that facilitate rejuvenation and regeneration, is skilfully injected into the targeted area, specifically the breasts in this case. This is where the name “PRP breast enhancement” comes from.</p>
+                <p className={`flex text-white text-[2.2vh] mt-[1.5vh] font-main`}>Continue reading to discover our Vampire Breast Lift™ UK cost.</p>
+                <p className={`flex text-white text-[2.2vh] mt-[1.5vh] font-main`}>The PRP contains a large concentration of growth factors, crucial cells responsible for revitalisation and renewal in our bodies, making it a potent and natural approach to rejuvenation.</p>
                 <Link href="/book-now"><button className={` text-[3vh] px-[2vh] py-[0.5vh] bg-black border-gold1 border-2 text-gold1 hover:bg-white mt-[5vh]  md:mt-[2vh] font-main`}>Book Consultation</button></Link>
             </div>
 
@@ -58,16 +59,17 @@ const BreastLiftDetails = () => {
         </div>
 
         <div className={`flex flex-col md:hidden items-center`}>
-            <p className={`flex text-gold1 text-[6vh] text-center font-header`}>How does it work?</p>
+            <p className={`flex text-gold1 text-[6vh] text-center font-header`}>How does the Vampire Breast Lift™ work?</p>
             <div className={`flex w-full h-[35vh]`}>
                 <video src="/blood_cells_mobile.mp4" autoPlay loop muted playsInline className={` object-cover h-full w-full`}></video>
             </div>
             
-                <p className={`flex text-white text-[2.2vh] mt-[5vh] ml-[1vh] font-main`}>Through utilizing regenerative growth factors derived from your own blood, the non-surgical breast lift offers a remarkable solution to enhance cleavage and restore lost volume in the upper breast area, achieving a more pronounced and captivating appearance.</p>
+                <p className={`flex text-white text-[2.2vh] mt-[5vh] ml-[1vh] font-main`}>Through utilising regenerative growth factors derived from your own blood, our UK non-surgical breast lift offers a remarkable solution to enhance cleavage and restore lost volume in the upper breast area, achieving a more pronounced and captivating appearance.</p>
                 <p className={`flex text-white text-[2.2vh] mt-[1.5vh] ml-[1vh] font-main`}>Vampire Treatments, also known as PRP or Platelet Rich Plasma Rejuvenation, have garnered significant attention as one of the most sought-after rejuvenation procedures in recent years. Harnessing the body's innate healing and regenerative capabilities, this groundbreaking technique effectively combats facial aging while lifting and enhancing the breasts, earning acclaim among celebrities.</p>
                 <p className={`flex text-white text-[2.2vh] mt-[1.5vh] ml-[1vh] font-main`}>As the sole UK doctor and the exclusive European practitioner certified by the inventor of Vampire treatments, and listed on the official Vampire Facelift™ website, Dr. Wakil stands as a leading authority in this pioneering methodology.</p>
-                <p className={`flex text-white text-[2.2vh] mt-[1.5vh] ml-[1vh] font-main`}>The procedure involves obtaining a small blood sample, which is then processed in a centrifuge to extract Platelet Rich Plasma (PRP). This concentrated plasma, abundant in growth factors that facilitate rejuvenation and regeneration, is skillfully injected into the targeted area, specifically the breasts in this case.</p>
-                <p className={`flex text-white text-[2.2vh] mt-[1.5vh] ml-[1vh] font-main`}>The PRP contains a large concentration of growth factors, crucial cells responsible for revitalization and renewal in our bodies, making it a potent and natural approach to rejuvenation.</p>
+                <p className={`flex text-white text-[2.2vh] mt-[1.5vh] ml-[1vh] font-main`}>The procedure involves obtaining a small blood sample, which is then processed in a centrifuge to extract Platelet Rich Plasma (PRP). This concentrated plasma, abundant in growth factors that facilitate rejuvenation and regeneration, is skilfully injected into the targeted area, specifically the breasts in this case. This is where the name “PRP breast enhancement” comes from.</p>
+                <p className={`flex text-white text-[2.2vh] mt-[1.5vh] ml-[1vh] font-main`}>Continue reading to discover our Vampire Breast Lift™ UK cost.</p>
+                <p className={`flex text-white text-[2.2vh] mt-[1.5vh] ml-[1vh] font-main`}>The PRP contains a large concentration of growth factors, crucial cells responsible for revitalisation and renewal in our bodies, making it a potent and natural approach to rejuvenation.</p>
                 <Link href="/book-now"><button className={` text-[3vh] px-[2vh] py-[0.5vh] bg-black border-gold1 border-2 text-gold1 hover:bg-white mt-[5vh]  md:mt-[1vh] font-main`}>Book Consultation</button></Link>
 
         </div>
