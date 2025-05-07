@@ -1,12 +1,12 @@
 import React from 'react'
-import fat3 from '../../public/fat3.jpg';
+import fat4 from '../../public/fat4.jpg';
 import Image from 'next/image';
 
 const FatImage = () => {
   return (
  
     <div className={`relative flex w-full h-screen`}>
-    <Image objectFit="cover" objectPosition="center" fill="true" alt="" src={fat3} priority></Image>
+    <Image objectFit="cover" objectPosition="center" fill="true" alt="" src={fat4} priority></Image>
     <div className={`absolute left-[1.5vw] top-[22%] md:w-[45%]`}>
     {/* <div className={`flex flex-col justify-center items-left h-screen w-[35%] ml-[3vh]`}> */}
                 {/* <h1 className={`text-gold1 text-[8vh] font-header mb-[3vh] mt-20 text-left`}>Vampire Breast Lift™ </h1> */}
